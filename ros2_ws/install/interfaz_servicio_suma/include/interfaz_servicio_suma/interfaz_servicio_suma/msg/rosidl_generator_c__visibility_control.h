@@ -1,0 +1,1 @@
+/workspace/ros2_ws/build/interfaz_servicio_suma/rosidl_generator_c/interfaz_servicio_suma/msg/rosidl_generator_c__visibility_control.h

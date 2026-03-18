@@ -1,0 +1,87 @@
+[0.027s] Invoking command in '/workspace/ros2_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2:/workspace/ros2_ws/install/interfaz:/workspace/install/servicio_suma:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/battery_act:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/turtlebot3_node
+[0.474s] -- The C compiler identification is GNU 11.4.0
+[0.474s] -- The CXX compiler identification is GNU 11.4.0
+[0.474s] -- Detecting C compiler ABI info
+[0.474s] -- Detecting C compiler ABI info - done
+[0.474s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.474s] -- Detecting C compile features
+[0.474s] -- Detecting C compile features - done
+[0.474s] -- Detecting CXX compiler ABI info
+[0.474s] -- Detecting CXX compiler ABI info - done
+[0.474s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.475s] -- Detecting CXX compile features
+[0.475s] -- Detecting CXX compile features - done
+[0.475s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.670s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.787s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.880s] -- Found dynamixel_sdk: 4.0.3 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[0.890s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.986s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.002s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.024s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.055s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.173s] -- Found message_filters: 4.3.11 (/opt/ros/humble/share/message_filters/cmake)
+[1.279s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.288s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.456s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.503s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.570s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.595s] -- Looking for pthread.h
+[1.671s] -- Looking for pthread.h - found
+[1.671s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.781s] -- Found Threads: TRUE  
+[1.834s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.855s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.878s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.894s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[1.912s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.040s] -- Found turtlebot3_msgs: 2.4.0 (/workspace/ros2_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[2.145s] -- Configuring done
+[2.170s] -- Generating done
+[2.180s] -- Build files have been written to: /workspace/ros2_ws/build/turtlebot3_node
+[2.384s] Invoked command in '/workspace/ros2_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2:/workspace/ros2_ws/install/interfaz:/workspace/install/servicio_suma:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/battery_act:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/turtlebot3_node
+[2.386s] Invoking command in '/workspace/ros2_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2:/workspace/ros2_ws/install/interfaz:/workspace/install/servicio_suma:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/battery_act:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/turtlebot3_node -- -j12 -l12
+[2.496s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[2.496s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[2.497s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[2.498s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[2.498s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[2.504s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[2.505s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[2.512s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[2.512s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[2.514s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[2.519s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[21.385s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[21.761s] [ 85%] Built target turtlebot3_node_lib
+[21.780s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[23.753s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[24.951s] [100%] Built target turtlebot3_ros
+[24.960s] Invoked command in '/workspace/ros2_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2:/workspace/ros2_ws/install/interfaz:/workspace/install/servicio_suma:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/battery_act:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/turtlebot3_node -- -j12 -l12
+[24.962s] Invoking command in '/workspace/ros2_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2:/workspace/ros2_ws/install/interfaz:/workspace/install/servicio_suma:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/battery_act:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/ros2_ws/build/turtlebot3_node
+[24.968s] -- Install configuration: ""
+[24.968s] -- Execute custom install script
+[24.969s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[24.975s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[24.980s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[24.988s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[24.996s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[25.003s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[25.009s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[25.016s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[25.023s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[25.030s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[25.037s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[25.043s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[25.048s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[25.055s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[25.062s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[25.070s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[25.077s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.086s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.095s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[25.103s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[25.109s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[25.116s] Invoked command in '/workspace/ros2_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2:/workspace/ros2_ws/install/interfaz:/workspace/install/servicio_suma:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/battery_act:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/ros2_ws/build/turtlebot3_node

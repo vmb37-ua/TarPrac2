@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-73dfe8958c9ff976ba41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "interfaz_servicio_suma__py",
+					"jsonFile" : "directory-interfaz_servicio_suma__py-367529931b0f3cff14b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspace/build/interfaz_servicio_suma/interfaz_servicio_suma__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "interfaz_servicio_suma",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_interfaz_servicio_suma_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_interfaz_servicio_suma_egg-b71b9b751942f13d914a.json",
+					"name" : "ament_cmake_python_build_interfaz_servicio_suma_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_interfaz_servicio_suma::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_interfaz_servicio_suma-1130d24a42e0ada46ff3.json",
+					"name" : "ament_cmake_python_copy_interfaz_servicio_suma",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma-0aa0ac57fe78b3ec01df.json",
+					"name" : "interfaz_servicio_suma",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma__cpp-b23397c0943e54464677.json",
+					"name" : "interfaz_servicio_suma__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "interfaz_servicio_suma__py::@7aa567c074db59fe4d86",
+					"jsonFile" : "target-interfaz_servicio_suma__py-d952755ebc7697a73332.json",
+					"name" : "interfaz_servicio_suma__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma__rosidl_generator_c-4b36933df2f1accf4700.json",
+					"name" : "interfaz_servicio_suma__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma__rosidl_generator_py-92095d184dc12022e950.json",
+					"name" : "interfaz_servicio_suma__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma__rosidl_typesupport_c-1639298e14c92a5b5863.json",
+					"name" : "interfaz_servicio_suma__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma__rosidl_typesupport_c__pyext-656eac5d28023e10d605.json",
+					"name" : "interfaz_servicio_suma__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma__rosidl_typesupport_cpp-562ab63021227adb1eb7.json",
+					"name" : "interfaz_servicio_suma__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma__rosidl_typesupport_fastrtps_c-b50746a678c369a0845f.json",
+					"name" : "interfaz_servicio_suma__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma__rosidl_typesupport_fastrtps_c__pyext-58b9f91a34d75c5951d2.json",
+					"name" : "interfaz_servicio_suma__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp-547cd696dfab428fa81c.json",
+					"name" : "interfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma__rosidl_typesupport_introspection_c-a60d9c07d0a00b56fef1.json",
+					"name" : "interfaz_servicio_suma__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma__rosidl_typesupport_introspection_c__pyext-8694c3eb18d54c9644c4.json",
+					"name" : "interfaz_servicio_suma__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma__rosidl_typesupport_introspection_cpp-66ccefe4c10616f73f0e.json",
+					"name" : "interfaz_servicio_suma__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_servicio_suma_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_servicio_suma_uninstall-1b86f6c822e68723d409.json",
+					"name" : "interfaz_servicio_suma_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dd0da7fe2892b40b708f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/build/interfaz_servicio_suma",
+		"source" : "/workspace/interfaz_servicio_suma"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/workspace/ros2_ws/build/interfaz/rosidl_generator_cpp/interfaz/msg/detail/mi_mensaje__struct.hpp

@@ -1,0 +1,1 @@
+/workspace/ros2_ws/build/interfaz/rosidl_generator_py/interfaz/__init__.py

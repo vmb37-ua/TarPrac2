@@ -1,0 +1,25 @@
+[3.535s] Invoking command in '/workspace/ros2_ws/build/battery_act': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2 LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/battery_act/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/battery_act/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/battery_act/build --no-deps symlink_data
+[4.131s] running develop
+[4.724s] running egg_info
+[4.724s] creating battery_act.egg-info
+[4.724s] writing battery_act.egg-info/PKG-INFO
+[4.724s] writing dependency_links to battery_act.egg-info/dependency_links.txt
+[4.725s] writing entry points to battery_act.egg-info/entry_points.txt
+[4.725s] writing requirements to battery_act.egg-info/requires.txt
+[4.725s] writing top-level names to battery_act.egg-info/top_level.txt
+[4.725s] writing manifest file 'battery_act.egg-info/SOURCES.txt'
+[4.729s] reading manifest file 'battery_act.egg-info/SOURCES.txt'
+[4.729s] writing manifest file 'battery_act.egg-info/SOURCES.txt'
+[4.732s] running build_ext
+[4.732s] Creating /workspace/ros2_ws/install/battery_act/lib/python3.10/site-packages/battery-act.egg-link (link to .)
+[4.734s] Installing client script to /workspace/ros2_ws/install/battery_act/lib/battery_act
+[4.734s] Installing server script to /workspace/ros2_ws/install/battery_act/lib/battery_act
+[4.735s] 
+[4.735s] Installed /workspace/ros2_ws/build/battery_act
+[4.735s] running symlink_data
+[4.735s] creating /workspace/ros2_ws/install/battery_act/share/ament_index
+[4.735s] creating /workspace/ros2_ws/install/battery_act/share/ament_index/resource_index
+[4.735s] creating /workspace/ros2_ws/install/battery_act/share/ament_index/resource_index/packages
+[4.736s] symbolically linking /workspace/ros2_ws/build/battery_act/resource/battery_act -> /workspace/ros2_ws/install/battery_act/share/ament_index/resource_index/packages
+[4.736s] symbolically linking /workspace/ros2_ws/build/battery_act/package.xml -> /workspace/ros2_ws/install/battery_act/share/battery_act
+[4.796s] Invoked command in '/workspace/ros2_ws/build/battery_act' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2 LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/battery_act/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/battery_act/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/battery_act/build --no-deps symlink_data

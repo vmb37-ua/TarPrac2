@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating primer_paquete.egg-info
+writing primer_paquete.egg-info/PKG-INFO
+writing dependency_links to primer_paquete.egg-info/dependency_links.txt
+writing entry points to primer_paquete.egg-info/entry_points.txt
+writing requirements to primer_paquete.egg-info/requires.txt
+writing top-level names to primer_paquete.egg-info/top_level.txt
+writing manifest file 'primer_paquete.egg-info/SOURCES.txt'
+reading manifest file 'primer_paquete.egg-info/SOURCES.txt'
+writing manifest file 'primer_paquete.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages/primer-paquete.egg-link (link to .)
+Installing client script to /workspace/ros2_ws/install/primer_paquete/lib/primer_paquete
+Installing server script to /workspace/ros2_ws/install/primer_paquete/lib/primer_paquete
+
+Installed /workspace/ros2_ws/build/primer_paquete
+running symlink_data
+creating /workspace/ros2_ws/install/primer_paquete/share/ament_index
+creating /workspace/ros2_ws/install/primer_paquete/share/ament_index/resource_index
+creating /workspace/ros2_ws/install/primer_paquete/share/ament_index/resource_index/packages
+symbolically linking /workspace/ros2_ws/build/primer_paquete/resource/primer_paquete -> /workspace/ros2_ws/install/primer_paquete/share/ament_index/resource_index/packages
+symbolically linking /workspace/ros2_ws/build/primer_paquete/package.xml -> /workspace/ros2_ws/install/primer_paquete/share/primer_paquete
+creating /workspace/ros2_ws/install/primer_paquete/share/primer_paquete/launch
+symbolically linking /workspace/ros2_ws/build/primer_paquete/launch/mi_launch.py -> /workspace/ros2_ws/install/primer_paquete/share/primer_paquete/launch

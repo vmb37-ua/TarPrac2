@@ -1,0 +1,4 @@
+source;share/interfaz-p2/local_setup.bash
+source;share/interfaz-p2/local_setup.dsv
+source;share/interfaz-p2/local_setup.sh
+source;share/interfaz-p2/local_setup.zsh

@@ -1,0 +1,9 @@
+source;share/servicio_suma/hook/pythonpath.ps1
+source;share/servicio_suma/hook/pythonpath.dsv
+source;share/servicio_suma/hook/pythonpath.sh
+source;share/servicio_suma/hook/ament_prefix_path.ps1
+source;share/servicio_suma/hook/ament_prefix_path.dsv
+source;share/servicio_suma/hook/ament_prefix_path.sh
+source;../../build/servicio_suma/share/servicio_suma/hook/pythonpath_develop.ps1
+source;../../build/servicio_suma/share/servicio_suma/hook/pythonpath_develop.dsv
+source;../../build/servicio_suma/share/servicio_suma/hook/pythonpath_develop.sh

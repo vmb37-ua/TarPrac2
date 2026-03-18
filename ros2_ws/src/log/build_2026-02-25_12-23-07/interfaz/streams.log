@@ -1,0 +1,40 @@
+[0.021s] Invoking command in '/workspace/ros2_ws/src/build/interfaz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/src/primer_paquete/install/primer_paquete:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/src/build/interfaz -- -j12 -l12
+[0.331s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.331s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.332s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.332s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.332s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.333s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.333s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.333s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.333s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.333s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.616s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.253s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.275s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.275s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.275s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.409s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+[1.409s]   add_custom_target cannot create target "interfaz" because another target
+[1.409s]   with the same name already exists.  The existing target is a custom target
+[1.409s]   created in source directory "/workspace/ros2_ws/src/interfaz".  See
+[1.409s]   documentation for policy CMP0002 for more details.
+[1.409s] Call Stack (most recent call first):
+[1.409s]   CMakeLists.txt:38 (rosidl_generate_interfaces)
+[1.409s] 
+[1.410s] [0m
+[1.432s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.432s] -- Configured cppcheck include dirs: 
+[1.432s] -- Configured cppcheck exclude dirs and/or files: 
+[1.436s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.442s] -- Added test 'lint_cmake' to check CMake code style
+[1.445s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.465s] -- Added test 'uncrustify' to check C / C++ code style
+[1.465s] -- Configured uncrustify additional arguments: 
+[1.468s] -- Added test 'xmllint' to check XML markup files
+[1.472s] -- Configuring incomplete, errors occurred!
+[1.472s] See also "/workspace/ros2_ws/src/build/interfaz/CMakeFiles/CMakeOutput.log".
+[1.476s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[1.477s] Invoked command in '/workspace/ros2_ws/src/build/interfaz' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/src/primer_paquete/install/primer_paquete:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/src/build/interfaz -- -j12 -l12

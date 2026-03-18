@@ -1,0 +1,1 @@
+/workspace/ros2_ws/build/interfaz/rosidl_typesupport_introspection_c/interfaz/msg/rosidl_typesupport_introspection_c__visibility_control.h

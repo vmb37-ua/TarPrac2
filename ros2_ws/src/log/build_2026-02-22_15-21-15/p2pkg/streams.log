@@ -1,0 +1,58 @@
+[0.024s] Invoking command in '/workspace/ros2_ws/src/build/p2pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/src/primer_paquete/install/primer_paquete:/workspace/ros2_ws/src/install/primer_paquete:/workspace/ros2_ws/src/install/servicio_suma:/workspace/ros2_ws/src/install/paquete1:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/paquete1:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/p2pkg -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/src/install/p2pkg
+[0.349s] -- The C compiler identification is GNU 11.4.0
+[0.349s] -- The CXX compiler identification is GNU 11.4.0
+[0.349s] -- Detecting C compiler ABI info
+[0.349s] -- Detecting C compiler ABI info - done
+[0.349s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.349s] -- Detecting C compile features
+[0.350s] -- Detecting C compile features - done
+[0.350s] -- Detecting CXX compiler ABI info
+[0.350s] -- Detecting CXX compiler ABI info - done
+[0.350s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.350s] -- Detecting CXX compile features
+[0.350s] -- Detecting CXX compile features - done
+[0.350s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.534s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.690s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.770s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.781s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.796s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.850s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.932s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.939s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.068s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.107s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.176s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.194s] -- Looking for pthread.h
+[1.274s] -- Looking for pthread.h - found
+[1.274s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.346s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.348s] -- Found Threads: TRUE  
+[1.423s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.509s] -- Added test 'lint_cmake' to check CMake code style
+[1.510s] -- Added test 'xmllint' to check XML markup files
+[1.511s] -- Configuring done
+[1.514s] -- Generating done
+[1.516s] -- Build files have been written to: /workspace/ros2_ws/src/build/p2pkg
+[1.523s] Invoked command in '/workspace/ros2_ws/src/build/p2pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/src/primer_paquete/install/primer_paquete:/workspace/ros2_ws/src/install/primer_paquete:/workspace/ros2_ws/src/install/servicio_suma:/workspace/ros2_ws/src/install/paquete1:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/paquete1:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/p2pkg -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/src/install/p2pkg
+[1.525s] Invoking command in '/workspace/ros2_ws/src/build/p2pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/src/primer_paquete/install/primer_paquete:/workspace/ros2_ws/src/install/primer_paquete:/workspace/ros2_ws/src/install/servicio_suma:/workspace/ros2_ws/src/install/paquete1:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/paquete1:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/src/build/p2pkg -- -j12 -l12
+[1.566s] Invoked command in '/workspace/ros2_ws/src/build/p2pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/src/primer_paquete/install/primer_paquete:/workspace/ros2_ws/src/install/primer_paquete:/workspace/ros2_ws/src/install/servicio_suma:/workspace/ros2_ws/src/install/paquete1:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/paquete1:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/src/build/p2pkg -- -j12 -l12
+[1.568s] Invoking command in '/workspace/ros2_ws/src/build/p2pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/src/primer_paquete/install/primer_paquete:/workspace/ros2_ws/src/install/primer_paquete:/workspace/ros2_ws/src/install/servicio_suma:/workspace/ros2_ws/src/install/paquete1:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/paquete1:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/src/build/p2pkg
+[1.577s] -- Install configuration: ""
+[1.577s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/ament_index/resource_index/package_run_dependencies/p2pkg
+[1.577s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/ament_index/resource_index/parent_prefix_path/p2pkg
+[1.577s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/p2pkg/environment/ament_prefix_path.sh
+[1.577s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/p2pkg/environment/ament_prefix_path.dsv
+[1.577s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/p2pkg/environment/path.sh
+[1.578s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/p2pkg/environment/path.dsv
+[1.578s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/p2pkg/local_setup.bash
+[1.578s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/p2pkg/local_setup.sh
+[1.578s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/p2pkg/local_setup.zsh
+[1.578s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/p2pkg/local_setup.dsv
+[1.578s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/p2pkg/package.dsv
+[1.579s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/ament_index/resource_index/packages/p2pkg
+[1.579s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/p2pkg/cmake/p2pkgConfig.cmake
+[1.579s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/p2pkg/cmake/p2pkgConfig-version.cmake
+[1.579s] -- Installing: /workspace/ros2_ws/src/install/p2pkg/share/p2pkg/package.xml
+[1.582s] Invoked command in '/workspace/ros2_ws/src/build/p2pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/src/primer_paquete/install/primer_paquete:/workspace/ros2_ws/src/install/primer_paquete:/workspace/ros2_ws/src/install/servicio_suma:/workspace/ros2_ws/src/install/paquete1:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/paquete1:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/src/build/p2pkg

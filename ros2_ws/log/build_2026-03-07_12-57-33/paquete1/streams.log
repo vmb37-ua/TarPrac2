@@ -1,0 +1,23 @@
+[1.478s] Invoking command in '/workspace/ros2_ws/build/paquete1': PYTHONPATH=/workspace/ros2_ws/build/paquete1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/paquete1/build --no-deps symlink_data
+[1.862s] running develop
+[2.122s] running egg_info
+[2.122s] creating paquete1.egg-info
+[2.122s] writing paquete1.egg-info/PKG-INFO
+[2.122s] writing dependency_links to paquete1.egg-info/dependency_links.txt
+[2.122s] writing entry points to paquete1.egg-info/entry_points.txt
+[2.123s] writing requirements to paquete1.egg-info/requires.txt
+[2.123s] writing top-level names to paquete1.egg-info/top_level.txt
+[2.123s] writing manifest file 'paquete1.egg-info/SOURCES.txt'
+[2.124s] reading manifest file 'paquete1.egg-info/SOURCES.txt'
+[2.125s] writing manifest file 'paquete1.egg-info/SOURCES.txt'
+[2.127s] running build_ext
+[2.127s] Creating /workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages/paquete1.egg-link (link to .)
+[2.129s] 
+[2.129s] Installed /workspace/ros2_ws/build/paquete1
+[2.129s] running symlink_data
+[2.130s] creating /workspace/ros2_ws/install/paquete1/share/ament_index
+[2.130s] creating /workspace/ros2_ws/install/paquete1/share/ament_index/resource_index
+[2.130s] creating /workspace/ros2_ws/install/paquete1/share/ament_index/resource_index/packages
+[2.130s] symbolically linking /workspace/ros2_ws/build/paquete1/resource/paquete1 -> /workspace/ros2_ws/install/paquete1/share/ament_index/resource_index/packages
+[2.130s] symbolically linking /workspace/ros2_ws/build/paquete1/package.xml -> /workspace/ros2_ws/install/paquete1/share/paquete1
+[2.170s] Invoked command in '/workspace/ros2_ws/build/paquete1' returned '0': PYTHONPATH=/workspace/ros2_ws/build/paquete1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/paquete1/build --no-deps symlink_data

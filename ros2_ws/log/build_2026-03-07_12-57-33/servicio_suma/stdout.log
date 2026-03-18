@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating servicio_suma.egg-info
+writing servicio_suma.egg-info/PKG-INFO
+writing dependency_links to servicio_suma.egg-info/dependency_links.txt
+writing entry points to servicio_suma.egg-info/entry_points.txt
+writing requirements to servicio_suma.egg-info/requires.txt
+writing top-level names to servicio_suma.egg-info/top_level.txt
+writing manifest file 'servicio_suma.egg-info/SOURCES.txt'
+reading manifest file 'servicio_suma.egg-info/SOURCES.txt'
+writing manifest file 'servicio_suma.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages/servicio-suma.egg-link (link to .)
+Installing client script to /workspace/ros2_ws/install/servicio_suma/lib/servicio_suma
+Installing server script to /workspace/ros2_ws/install/servicio_suma/lib/servicio_suma
+
+Installed /workspace/ros2_ws/build/servicio_suma
+running symlink_data
+creating /workspace/ros2_ws/install/servicio_suma/share/ament_index
+creating /workspace/ros2_ws/install/servicio_suma/share/ament_index/resource_index
+creating /workspace/ros2_ws/install/servicio_suma/share/ament_index/resource_index/packages
+symbolically linking /workspace/ros2_ws/build/servicio_suma/resource/servicio_suma -> /workspace/ros2_ws/install/servicio_suma/share/ament_index/resource_index/packages
+symbolically linking /workspace/ros2_ws/build/servicio_suma/package.xml -> /workspace/ros2_ws/install/servicio_suma/share/servicio_suma

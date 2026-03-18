@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+launch/mi_launch.py
+primer_paquete/__init__.py
+primer_paquete/nodo_envia.py
+primer_paquete/nodo_recibe.py
+primer_paquete.egg-info/PKG-INFO
+primer_paquete.egg-info/SOURCES.txt
+primer_paquete.egg-info/dependency_links.txt
+primer_paquete.egg-info/entry_points.txt
+primer_paquete.egg-info/requires.txt
+primer_paquete.egg-info/top_level.txt
+primer_paquete.egg-info/zip-safe
+resource/primer_paquete

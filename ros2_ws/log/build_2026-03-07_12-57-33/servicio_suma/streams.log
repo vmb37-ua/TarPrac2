@@ -1,0 +1,25 @@
+[1.813s] Invoking command in '/workspace/ros2_ws/build/servicio_suma': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz-p2:/workspace/ros2_ws/install/interfaz LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/workspace/ros2_ws/install/interfaz/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/servicio_suma/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/servicio_suma/build --no-deps symlink_data
+[2.267s] running develop
+[2.490s] running egg_info
+[2.490s] creating servicio_suma.egg-info
+[2.490s] writing servicio_suma.egg-info/PKG-INFO
+[2.491s] writing dependency_links to servicio_suma.egg-info/dependency_links.txt
+[2.491s] writing entry points to servicio_suma.egg-info/entry_points.txt
+[2.491s] writing requirements to servicio_suma.egg-info/requires.txt
+[2.491s] writing top-level names to servicio_suma.egg-info/top_level.txt
+[2.491s] writing manifest file 'servicio_suma.egg-info/SOURCES.txt'
+[2.493s] reading manifest file 'servicio_suma.egg-info/SOURCES.txt'
+[2.494s] writing manifest file 'servicio_suma.egg-info/SOURCES.txt'
+[2.497s] running build_ext
+[2.497s] Creating /workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages/servicio-suma.egg-link (link to .)
+[2.498s] Installing client script to /workspace/ros2_ws/install/servicio_suma/lib/servicio_suma
+[2.498s] Installing server script to /workspace/ros2_ws/install/servicio_suma/lib/servicio_suma
+[2.499s] 
+[2.499s] Installed /workspace/ros2_ws/build/servicio_suma
+[2.499s] running symlink_data
+[2.499s] creating /workspace/ros2_ws/install/servicio_suma/share/ament_index
+[2.499s] creating /workspace/ros2_ws/install/servicio_suma/share/ament_index/resource_index
+[2.499s] creating /workspace/ros2_ws/install/servicio_suma/share/ament_index/resource_index/packages
+[2.499s] symbolically linking /workspace/ros2_ws/build/servicio_suma/resource/servicio_suma -> /workspace/ros2_ws/install/servicio_suma/share/ament_index/resource_index/packages
+[2.499s] symbolically linking /workspace/ros2_ws/build/servicio_suma/package.xml -> /workspace/ros2_ws/install/servicio_suma/share/servicio_suma
+[2.534s] Invoked command in '/workspace/ros2_ws/build/servicio_suma' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz-p2:/workspace/ros2_ws/install/interfaz LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/workspace/ros2_ws/install/interfaz/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/servicio_suma/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/servicio_suma/build --no-deps symlink_data

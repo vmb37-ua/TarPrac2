@@ -1,0 +1,30 @@
+[1.570s] Invoking command in '/workspace/ros2_ws/build/mi_accion': PYTHONPATH=/workspace/ros2_ws/build/mi_accion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/mi_accion/build --no-deps symlink_data
+[2.127s] running develop
+[2.231s] running egg_info
+[2.231s] creating mi_accion.egg-info
+[2.231s] writing mi_accion.egg-info/PKG-INFO
+[2.231s] writing dependency_links to mi_accion.egg-info/dependency_links.txt
+[2.231s] writing entry points to mi_accion.egg-info/entry_points.txt
+[2.232s] writing requirements to mi_accion.egg-info/requires.txt
+[2.232s] writing top-level names to mi_accion.egg-info/top_level.txt
+[2.232s] writing manifest file 'mi_accion.egg-info/SOURCES.txt'
+[2.233s] reading manifest file 'mi_accion.egg-info/SOURCES.txt'
+[2.234s] writing manifest file 'mi_accion.egg-info/SOURCES.txt'
+[2.235s] running build_ext
+[2.235s] Creating /workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages/mi-accion.egg-link (link to .)
+[2.236s] Installing client script to /workspace/ros2_ws/install/mi_accion/lib/mi_accion
+[2.236s] Installing ej_client script to /workspace/ros2_ws/install/mi_accion/lib/mi_accion
+[2.236s] Installing ej_server script to /workspace/ros2_ws/install/mi_accion/lib/mi_accion
+[2.236s] Installing server script to /workspace/ros2_ws/install/mi_accion/lib/mi_accion
+[2.237s] 
+[2.237s] Installed /workspace/ros2_ws/build/mi_accion
+[2.237s] running symlink_data
+[2.237s] creating /workspace/ros2_ws/install/mi_accion/share/ament_index
+[2.237s] creating /workspace/ros2_ws/install/mi_accion/share/ament_index/resource_index
+[2.237s] creating /workspace/ros2_ws/install/mi_accion/share/ament_index/resource_index/packages
+[2.237s] symbolically linking /workspace/ros2_ws/build/mi_accion/resource/mi_accion -> /workspace/ros2_ws/install/mi_accion/share/ament_index/resource_index/packages
+[2.237s] symbolically linking /workspace/ros2_ws/build/mi_accion/package.xml -> /workspace/ros2_ws/install/mi_accion/share/mi_accion
+[2.237s] creating /workspace/ros2_ws/install/mi_accion/share/mi_accion/launch
+[2.237s] symbolically linking /workspace/ros2_ws/build/mi_accion/launch/launch_ejercicio4.py -> /workspace/ros2_ws/install/mi_accion/share/mi_accion/launch
+[2.238s] symbolically linking /workspace/ros2_ws/build/mi_accion/launch/launch_ejercicio3.py -> /workspace/ros2_ws/install/mi_accion/share/mi_accion/launch
+[2.267s] Invoked command in '/workspace/ros2_ws/build/mi_accion' returned '0': PYTHONPATH=/workspace/ros2_ws/build/mi_accion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/mi_accion/build --no-deps symlink_data

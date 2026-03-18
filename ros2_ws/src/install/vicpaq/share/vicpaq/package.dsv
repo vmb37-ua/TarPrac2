@@ -1,0 +1,8 @@
+source;share/vicpaq/hook/cmake_prefix_path.ps1
+source;share/vicpaq/hook/cmake_prefix_path.dsv
+source;share/vicpaq/hook/cmake_prefix_path.sh
+source;share/vicpaq/local_setup.bash
+source;share/vicpaq/local_setup.dsv
+source;share/vicpaq/local_setup.ps1
+source;share/vicpaq/local_setup.sh
+source;share/vicpaq/local_setup.zsh

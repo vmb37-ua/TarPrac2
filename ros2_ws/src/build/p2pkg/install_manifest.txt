@@ -1,0 +1,15 @@
+/workspace/ros2_ws/src/install/p2pkg/share/ament_index/resource_index/package_run_dependencies/p2pkg
+/workspace/ros2_ws/src/install/p2pkg/share/ament_index/resource_index/parent_prefix_path/p2pkg
+/workspace/ros2_ws/src/install/p2pkg/share/p2pkg/environment/ament_prefix_path.sh
+/workspace/ros2_ws/src/install/p2pkg/share/p2pkg/environment/ament_prefix_path.dsv
+/workspace/ros2_ws/src/install/p2pkg/share/p2pkg/environment/path.sh
+/workspace/ros2_ws/src/install/p2pkg/share/p2pkg/environment/path.dsv
+/workspace/ros2_ws/src/install/p2pkg/share/p2pkg/local_setup.bash
+/workspace/ros2_ws/src/install/p2pkg/share/p2pkg/local_setup.sh
+/workspace/ros2_ws/src/install/p2pkg/share/p2pkg/local_setup.zsh
+/workspace/ros2_ws/src/install/p2pkg/share/p2pkg/local_setup.dsv
+/workspace/ros2_ws/src/install/p2pkg/share/p2pkg/package.dsv
+/workspace/ros2_ws/src/install/p2pkg/share/ament_index/resource_index/packages/p2pkg
+/workspace/ros2_ws/src/install/p2pkg/share/p2pkg/cmake/p2pkgConfig.cmake
+/workspace/ros2_ws/src/install/p2pkg/share/p2pkg/cmake/p2pkgConfig-version.cmake
+/workspace/ros2_ws/src/install/p2pkg/share/p2pkg/package.xml

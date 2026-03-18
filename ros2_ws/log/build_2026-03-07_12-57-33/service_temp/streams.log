@@ -1,0 +1,25 @@
+[2.431s] Invoking command in '/workspace/ros2_ws/build/service_temp': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2 LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/service_temp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/service_temp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/service_temp/build --no-deps symlink_data
+[3.620s] running develop
+[4.508s] running egg_info
+[4.508s] creating service_temp.egg-info
+[4.508s] writing service_temp.egg-info/PKG-INFO
+[4.508s] writing dependency_links to service_temp.egg-info/dependency_links.txt
+[4.508s] writing entry points to service_temp.egg-info/entry_points.txt
+[4.508s] writing requirements to service_temp.egg-info/requires.txt
+[4.508s] writing top-level names to service_temp.egg-info/top_level.txt
+[4.511s] writing manifest file 'service_temp.egg-info/SOURCES.txt'
+[4.517s] reading manifest file 'service_temp.egg-info/SOURCES.txt'
+[4.518s] writing manifest file 'service_temp.egg-info/SOURCES.txt'
+[4.523s] running build_ext
+[4.523s] Creating /workspace/ros2_ws/install/service_temp/lib/python3.10/site-packages/service-temp.egg-link (link to .)
+[4.530s] Installing client script to /workspace/ros2_ws/install/service_temp/lib/service_temp
+[4.530s] Installing server script to /workspace/ros2_ws/install/service_temp/lib/service_temp
+[4.530s] 
+[4.530s] Installed /workspace/ros2_ws/build/service_temp
+[4.530s] running symlink_data
+[4.535s] creating /workspace/ros2_ws/install/service_temp/share/ament_index
+[4.535s] creating /workspace/ros2_ws/install/service_temp/share/ament_index/resource_index
+[4.535s] creating /workspace/ros2_ws/install/service_temp/share/ament_index/resource_index/packages
+[4.535s] symbolically linking /workspace/ros2_ws/build/service_temp/resource/service_temp -> /workspace/ros2_ws/install/service_temp/share/ament_index/resource_index/packages
+[4.535s] symbolically linking /workspace/ros2_ws/build/service_temp/package.xml -> /workspace/ros2_ws/install/service_temp/share/service_temp
+[4.646s] Invoked command in '/workspace/ros2_ws/build/service_temp' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2 LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/service_temp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/service_temp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/service_temp/build --no-deps symlink_data

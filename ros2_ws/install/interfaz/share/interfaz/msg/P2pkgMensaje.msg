@@ -1,0 +1,1 @@
+/workspace/ros2_ws/src/interfaz/msg/P2pkgMensaje.msg

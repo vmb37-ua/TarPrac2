@@ -1,0 +1,27 @@
+[3.285s] Invoking command in '/workspace/ros2_ws/build/primer_paquete': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2 LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/primer_paquete/build --no-deps symlink_data
+[4.682s] running develop
+[5.266s] running egg_info
+[5.266s] creating primer_paquete.egg-info
+[5.266s] writing primer_paquete.egg-info/PKG-INFO
+[5.267s] writing dependency_links to primer_paquete.egg-info/dependency_links.txt
+[5.267s] writing entry points to primer_paquete.egg-info/entry_points.txt
+[5.267s] writing requirements to primer_paquete.egg-info/requires.txt
+[5.267s] writing top-level names to primer_paquete.egg-info/top_level.txt
+[5.268s] writing manifest file 'primer_paquete.egg-info/SOURCES.txt'
+[5.274s] reading manifest file 'primer_paquete.egg-info/SOURCES.txt'
+[5.278s] writing manifest file 'primer_paquete.egg-info/SOURCES.txt'
+[5.286s] running build_ext
+[5.287s] Creating /workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages/primer-paquete.egg-link (link to .)
+[5.293s] Installing client script to /workspace/ros2_ws/install/primer_paquete/lib/primer_paquete
+[5.293s] Installing server script to /workspace/ros2_ws/install/primer_paquete/lib/primer_paquete
+[5.294s] 
+[5.294s] Installed /workspace/ros2_ws/build/primer_paquete
+[5.294s] running symlink_data
+[5.294s] creating /workspace/ros2_ws/install/primer_paquete/share/ament_index
+[5.303s] creating /workspace/ros2_ws/install/primer_paquete/share/ament_index/resource_index
+[5.303s] creating /workspace/ros2_ws/install/primer_paquete/share/ament_index/resource_index/packages
+[5.304s] symbolically linking /workspace/ros2_ws/build/primer_paquete/resource/primer_paquete -> /workspace/ros2_ws/install/primer_paquete/share/ament_index/resource_index/packages
+[5.304s] symbolically linking /workspace/ros2_ws/build/primer_paquete/package.xml -> /workspace/ros2_ws/install/primer_paquete/share/primer_paquete
+[5.304s] creating /workspace/ros2_ws/install/primer_paquete/share/primer_paquete/launch
+[5.304s] symbolically linking /workspace/ros2_ws/build/primer_paquete/launch/mi_launch.py -> /workspace/ros2_ws/install/primer_paquete/share/primer_paquete/launch
+[5.481s] Invoked command in '/workspace/ros2_ws/build/primer_paquete' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2 LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/primer_paquete/build --no-deps symlink_data

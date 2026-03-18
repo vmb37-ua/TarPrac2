@@ -1,0 +1,35 @@
+from interfaz_servicio_suma.srv import AddTwoInts
+
+import rclpy
+from rclpy.node import Node
+
+
+class MinimalService(Node):
+
+    def __init__(self):
+        super().__init__('minimal_service')
+        self.srv = self.create_service(AddTwoInts, 'add_two_ints', self.add_two_ints_callback)
+
+    def add_two_ints_callback(self, request, response):
+        self.get_logger().info('Incoming request\na: %d b: %d c:%d d:%d e:%d' % (request.a, request.b, request.c, request.d, request.e))
+        if request.e == 0:
+            response.sum = float('nan')
+            self.get_logger().error('e=0, division entre 0')
+            return response
+
+        response.sum = float(request.a + request.b - request.c * request.d / request.e)
+        return response
+
+
+def main():
+    rclpy.init()
+
+    minimal_service = MinimalService()
+
+    rclpy.spin(minimal_service)
+
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

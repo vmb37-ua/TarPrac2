@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /workspace/interfaz_servicio_suma/build/interfaz_servicio_suma/CMakeCache.txt is different than the directory /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:747: cmake_check_build_system] Error 1

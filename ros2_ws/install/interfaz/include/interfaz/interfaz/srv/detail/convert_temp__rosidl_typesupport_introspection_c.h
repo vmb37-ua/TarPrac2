@@ -1,0 +1,1 @@
+/workspace/ros2_ws/build/interfaz/rosidl_typesupport_introspection_c/interfaz/srv/detail/convert_temp__rosidl_typesupport_introspection_c.h

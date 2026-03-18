@@ -1,0 +1,4 @@
+[console_scripts]
+nodopub = p2pkg.nodopub_ejercicio2:main
+nodosub = p2pkg.nodosub_ejercicio2:main
+

@@ -1,0 +1,1 @@
+/workspace/ros2_ws/build/interfaz_servicio_suma/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

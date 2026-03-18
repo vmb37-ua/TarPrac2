@@ -1,0 +1,25 @@
+[3.042s] Invoking command in '/workspace/ros2_ws/build/p2pkg': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2 LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/p2pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/p2pkg/build --no-deps symlink_data
+[3.725s] running develop
+[4.169s] running egg_info
+[4.170s] creating p2pkg.egg-info
+[4.171s] writing p2pkg.egg-info/PKG-INFO
+[4.171s] writing dependency_links to p2pkg.egg-info/dependency_links.txt
+[4.172s] writing entry points to p2pkg.egg-info/entry_points.txt
+[4.173s] writing requirements to p2pkg.egg-info/requires.txt
+[4.173s] writing top-level names to p2pkg.egg-info/top_level.txt
+[4.174s] writing manifest file 'p2pkg.egg-info/SOURCES.txt'
+[4.178s] reading manifest file 'p2pkg.egg-info/SOURCES.txt'
+[4.178s] writing manifest file 'p2pkg.egg-info/SOURCES.txt'
+[4.181s] running build_ext
+[4.182s] Creating /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg.egg-link (link to .)
+[4.184s] Installing nodopub script to /workspace/ros2_ws/install/p2pkg/lib/p2pkg
+[4.185s] Installing nodosub script to /workspace/ros2_ws/install/p2pkg/lib/p2pkg
+[4.185s] 
+[4.185s] Installed /workspace/ros2_ws/build/p2pkg
+[4.186s] running symlink_data
+[4.186s] creating /workspace/ros2_ws/install/p2pkg/share/ament_index
+[4.187s] creating /workspace/ros2_ws/install/p2pkg/share/ament_index/resource_index
+[4.187s] creating /workspace/ros2_ws/install/p2pkg/share/ament_index/resource_index/packages
+[4.187s] symbolically linking /workspace/ros2_ws/build/p2pkg/resource/p2pkg -> /workspace/ros2_ws/install/p2pkg/share/ament_index/resource_index/packages
+[4.190s] symbolically linking /workspace/ros2_ws/build/p2pkg/package.xml -> /workspace/ros2_ws/install/p2pkg/share/p2pkg
+[4.276s] Invoked command in '/workspace/ros2_ws/build/p2pkg' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz-p2 LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/p2pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/p2pkg/build --no-deps symlink_data

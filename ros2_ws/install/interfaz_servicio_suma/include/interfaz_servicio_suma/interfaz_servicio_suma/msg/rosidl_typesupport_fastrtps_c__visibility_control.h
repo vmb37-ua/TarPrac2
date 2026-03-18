@@ -1,0 +1,1 @@
+/workspace/ros2_ws/build/interfaz_servicio_suma/rosidl_typesupport_fastrtps_c/interfaz_servicio_suma/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

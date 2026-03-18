@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+p2pkg/__init__.py
+p2pkg/nodopub_ejercicio2.py
+p2pkg/nodosub_ejercicio2.py
+p2pkg.egg-info/PKG-INFO
+p2pkg.egg-info/SOURCES.txt
+p2pkg.egg-info/dependency_links.txt
+p2pkg.egg-info/entry_points.txt
+p2pkg.egg-info/requires.txt
+p2pkg.egg-info/top_level.txt
+p2pkg.egg-info/zip-safe
+resource/p2pkg

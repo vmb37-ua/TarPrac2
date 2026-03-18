@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000374] (-) JobUnselected: {'identifier': 'interfaz'}
+[0.000409] (-) JobUnselected: {'identifier': 'interfaz_servicio_suma'}
+[0.000424] (-) JobUnselected: {'identifier': 'paquete1'}
+[0.000433] (-) JobUnselected: {'identifier': 'servicio_suma'}
+[0.000442] (-) EventReactorShutdown: {}

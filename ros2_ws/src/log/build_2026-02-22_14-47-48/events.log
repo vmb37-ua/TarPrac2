@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000141] (-) JobUnselected: {'identifier': 'interfaz'}
+[0.000172] (-) JobUnselected: {'identifier': 'interfaz_servicio_suma'}
+[0.000195] (-) JobUnselected: {'identifier': 'p2pkg'}
+[0.000216] (-) JobUnselected: {'identifier': 'paquete1'}
+[0.000235] (-) JobUnselected: {'identifier': 'primer_paquete'}
+[0.000255] (-) JobUnselected: {'identifier': 'servicio_suma'}
+[0.000275] (-) JobUnselected: {'identifier': 'vicpaq'}
+[0.000295] (-) EventReactorShutdown: {}

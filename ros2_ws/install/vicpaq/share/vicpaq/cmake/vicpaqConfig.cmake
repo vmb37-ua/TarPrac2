@@ -1,0 +1,1 @@
+/workspace/ros2_ws/build/vicpaq/ament_cmake_core/vicpaqConfig.cmake

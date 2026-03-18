@@ -1,0 +1,15 @@
+/workspace/ros2_ws/install/vicpaq/share/ament_index/resource_index/package_run_dependencies/vicpaq
+/workspace/ros2_ws/install/vicpaq/share/ament_index/resource_index/parent_prefix_path/vicpaq
+/workspace/ros2_ws/install/vicpaq/share/vicpaq/environment/ament_prefix_path.sh
+/workspace/ros2_ws/install/vicpaq/share/vicpaq/environment/ament_prefix_path.dsv
+/workspace/ros2_ws/install/vicpaq/share/vicpaq/environment/path.sh
+/workspace/ros2_ws/install/vicpaq/share/vicpaq/environment/path.dsv
+/workspace/ros2_ws/install/vicpaq/share/vicpaq/local_setup.bash
+/workspace/ros2_ws/install/vicpaq/share/vicpaq/local_setup.sh
+/workspace/ros2_ws/install/vicpaq/share/vicpaq/local_setup.zsh
+/workspace/ros2_ws/install/vicpaq/share/vicpaq/local_setup.dsv
+/workspace/ros2_ws/install/vicpaq/share/vicpaq/package.dsv
+/workspace/ros2_ws/install/vicpaq/share/ament_index/resource_index/packages/vicpaq
+/workspace/ros2_ws/install/vicpaq/share/vicpaq/cmake/vicpaqConfig.cmake
+/workspace/ros2_ws/install/vicpaq/share/vicpaq/cmake/vicpaqConfig-version.cmake
+/workspace/ros2_ws/install/vicpaq/share/vicpaq/package.xml

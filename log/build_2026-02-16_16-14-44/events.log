@@ -1,0 +1,332 @@
+[0.000000] (-) TimerEvent: {}
+[0.000142] (interfaz_servicio_suma) JobQueued: {'identifier': 'interfaz_servicio_suma', 'dependencies': OrderedDict()}
+[0.000184] (servicio_suma) JobQueued: {'identifier': 'servicio_suma', 'dependencies': OrderedDict([('interfaz_servicio_suma', '/workspace/install/interfaz_servicio_suma')])}
+[0.000219] (interfaz_servicio_suma) JobStarted: {'identifier': 'interfaz_servicio_suma'}
+[0.005360] (interfaz_servicio_suma) JobProgress: {'identifier': 'interfaz_servicio_suma', 'progress': 'cmake'}
+[0.005947] (interfaz_servicio_suma) Command: {'cmd': ['/usr/bin/cmake', '/workspace/interfaz_servicio_suma', '-DCMAKE_INSTALL_PREFIX=/workspace/install/interfaz_servicio_suma'], 'cwd': '/workspace/build/interfaz_servicio_suma', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'portatil832'), ('LIBGL_DEBUG', 'verbose'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victor-docker'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/workspace/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/ros2_ws/install/servicio_suma:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspace/build/interfaz_servicio_suma'), ('PYTHONPATH', '/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Europe/Madrid'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/ros2_ws/install/servicio_suma:/opt/ros/humble')]), 'shell': False}
+[0.099633] (-) TimerEvent: {}
+[0.196448] (interfaz_servicio_suma) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199843] (-) TimerEvent: {}
+[0.295951] (interfaz_servicio_suma) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.300066] (-) TimerEvent: {}
+[0.302720] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.365018] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.370409] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.370968] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.371483] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.373851] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400250] (-) TimerEvent: {}
+[0.436955] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.442674] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.442887] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.443374] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.451453] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500452] (-) TimerEvent: {}
+[0.571742] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600676] (-) TimerEvent: {}
+[0.648878] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.689562] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.695056] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700900] (-) TimerEvent: {}
+[0.703575] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.715062] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.729140] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.751012] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.801077] (-) TimerEvent: {}
+[0.901427] (-) TimerEvent: {}
+[0.929267] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.001677] (-) TimerEvent: {}
+[1.101982] (-) TimerEvent: {}
+[1.182604] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.202098] (-) TimerEvent: {}
+[1.280918] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.298314] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.299864] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.302225] (-) TimerEvent: {}
+[1.319401] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.319578] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.319659] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.319730] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.336872] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.371493] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.402450] (-) TimerEvent: {}
+[1.409080] (interfaz_servicio_suma) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.409397] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.409488] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.412533] (interfaz_servicio_suma) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.417821] (interfaz_servicio_suma) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.420635] (interfaz_servicio_suma) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.445053] (interfaz_servicio_suma) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.445250] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.448964] (interfaz_servicio_suma) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.450825] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.468478] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Generating done\n'}
+[1.474737] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/interfaz_servicio_suma\n'}
+[1.478279] (interfaz_servicio_suma) CommandEnded: {'returncode': 0}
+[1.478605] (interfaz_servicio_suma) JobProgress: {'identifier': 'interfaz_servicio_suma', 'progress': 'build'}
+[1.479104] (interfaz_servicio_suma) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/interfaz_servicio_suma', '--', '-j12', '-l12'], 'cwd': '/workspace/build/interfaz_servicio_suma', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'portatil832'), ('LIBGL_DEBUG', 'verbose'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victor-docker'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/workspace/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/ros2_ws/install/servicio_suma:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspace/build/interfaz_servicio_suma'), ('PYTHONPATH', '/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Europe/Madrid'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/ros2_ws/install/servicio_suma:/opt/ros/humble')]), 'shell': False}
+[1.502688] (-) TimerEvent: {}
+[1.511162] (interfaz_servicio_suma) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.519792] (interfaz_servicio_suma) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.528296] (interfaz_servicio_suma) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_interfaz_servicio_suma\n'}
+[1.602815] (-) TimerEvent: {}
+[1.703051] (-) TimerEvent: {}
+[1.706284] (interfaz_servicio_suma) StdoutLine: {'line': b'[  6%] Built target interfaz_servicio_suma__cpp\n'}
+[1.714311] (interfaz_servicio_suma) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interfaz_servicio_suma__rosidl_generator_c.dir/rosidl_generator_c/interfaz_servicio_suma/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[1.716229] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.716436] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.717061] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.743268] (interfaz_servicio_suma) StdoutLine: {'line': b'running egg_info\n'}
+[1.744210] (interfaz_servicio_suma) StdoutLine: {'line': b'creating interfaz_servicio_suma.egg-info\n'}
+[1.744512] (interfaz_servicio_suma) StdoutLine: {'line': b'writing interfaz_servicio_suma.egg-info/PKG-INFO\n'}
+[1.744629] (interfaz_servicio_suma) StdoutLine: {'line': b'writing dependency_links to interfaz_servicio_suma.egg-info/dependency_links.txt\n'}
+[1.744739] (interfaz_servicio_suma) StdoutLine: {'line': b'writing top-level names to interfaz_servicio_suma.egg-info/top_level.txt\n'}
+[1.744814] (interfaz_servicio_suma) StdoutLine: {'line': b"writing manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'\n"}
+[1.746493] (interfaz_servicio_suma) StdoutLine: {'line': b"reading manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'\n"}
+[1.747104] (interfaz_servicio_suma) StdoutLine: {'line': b"writing manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'\n"}
+[1.771113] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_interfaz_servicio_suma_egg\n'}
+[1.790777] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libinterfaz_servicio_suma__rosidl_generator_c.so\x1b[0m\n'}
+[1.803142] (-) TimerEvent: {}
+[1.823382] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 22%] Built target interfaz_servicio_suma__rosidl_generator_c\n'}
+[1.835247] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.835442] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.835569] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.903297] (-) TimerEvent: {}
+[1.911663] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaz_servicio_suma/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[1.951052] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[2.003461] (-) TimerEvent: {}
+[2.036726] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaz_servicio_suma/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[2.088289] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[2.103653] (-) TimerEvent: {}
+[2.110343] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaz_servicio_suma/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[2.123040] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz_servicio_suma/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[2.124551] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libinterfaz_servicio_suma__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.155790] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 54%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_c\n'}
+[2.159293] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaz_servicio_suma__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.198116] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 58%] Built target interfaz_servicio_suma__rosidl_typesupport_c\n'}
+[2.203835] (-) TimerEvent: {}
+[2.266567] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaz_servicio_suma__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.303937] (-) TimerEvent: {}
+[2.308153] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 61%] Built target interfaz_servicio_suma__rosidl_typesupport_cpp\n'}
+[2.368944] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaz_servicio_suma__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.369107] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.375266] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.404050] (-) TimerEvent: {}
+[2.408793] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 70%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_cpp\n'}
+[2.427438] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 70%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp\n'}
+[2.442497] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 70%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c\n'}
+[2.463062] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 70%] Built target interfaz_servicio_suma\n'}
+[2.479780] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.504256] (-) TimerEvent: {}
+[2.604617] (-) TimerEvent: {}
+[2.683885] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 74%] Built target interfaz_servicio_suma__py\n'}
+[2.697406] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interfaz_servicio_suma__rosidl_generator_py.dir/rosidl_generator_py/interfaz_servicio_suma/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[2.704808] (-) TimerEvent: {}
+[2.778488] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaz_servicio_suma/libinterfaz_servicio_suma__rosidl_generator_py.so\x1b[0m\n'}
+[2.804949] (-) TimerEvent: {}
+[2.808991] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 80%] Built target interfaz_servicio_suma__rosidl_generator_py\n'}
+[2.826411] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.827585] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.827732] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.897445] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.900932] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.905051] (-) TimerEvent: {}
+[2.926292] (interfaz_servicio_suma) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.927266] (interfaz_servicio_suma) StdoutLine: {'line': b'[100%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.930086] (interfaz_servicio_suma) StdoutLine: {'line': b'[100%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_c__pyext\n'}
+[2.956844] (interfaz_servicio_suma) StdoutLine: {'line': b'[100%] Built target interfaz_servicio_suma__rosidl_typesupport_c__pyext\n'}
+[2.966423] (interfaz_servicio_suma) CommandEnded: {'returncode': 0}
+[2.967364] (interfaz_servicio_suma) JobProgress: {'identifier': 'interfaz_servicio_suma', 'progress': 'install'}
+[2.973459] (interfaz_servicio_suma) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/interfaz_servicio_suma'], 'cwd': '/workspace/build/interfaz_servicio_suma', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'portatil832'), ('LIBGL_DEBUG', 'verbose'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victor-docker'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/workspace/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/ros2_ws/install/servicio_suma:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspace/build/interfaz_servicio_suma'), ('PYTHONPATH', '/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Europe/Madrid'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/ros2_ws/install/servicio_suma:/opt/ros/humble')]), 'shell': False}
+[2.980058] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.980292] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/ament_index/resource_index/rosidl_interfaces/interfaz_servicio_suma\n'}
+[2.980388] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma\n'}
+[2.980465] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg\n'}
+[2.980537] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.980765] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv\n'}
+[2.980846] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail\n'}
+[2.980910] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.h\n'}
+[2.981023] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__functions.h\n'}
+[2.981085] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__struct.h\n'}
+[2.981147] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__functions.c\n'}
+[2.981210] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/add_two_ints.h\n'}
+[2.981310] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/library_path.sh\n'}
+[2.981375] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/library_path.dsv\n'}
+[2.981437] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_generator_c.so\n'}
+[2.981499] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_generator_c.so" to ""\n'}
+[2.981567] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma\n'}
+[2.981708] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg\n'}
+[2.981792] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.981857] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv\n'}
+[2.981920] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail\n'}
+[2.981982] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[2.982045] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_c.so\n'}
+[2.982107] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.982170] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma\n'}
+[2.982233] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg\n'}
+[2.982295] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.982376] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv\n'}
+[2.982495] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail\n'}
+[2.982563] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__builder.hpp\n'}
+[2.982688] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__traits.hpp\n'}
+[2.982798] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__struct.hpp\n'}
+[2.982861] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.hpp\n'}
+[2.982927] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/add_two_ints.hpp\n'}
+[2.982988] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma\n'}
+[2.983050] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg\n'}
+[2.983113] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.983175] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv\n'}
+[2.983270] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail\n'}
+[2.983333] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/dds_fastrtps\n'}
+[2.983395] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.983458] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.983555] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.983633] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma\n'}
+[2.983702] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg\n'}
+[2.983778] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.983844] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv\n'}
+[2.983907] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail\n'}
+[2.983969] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[2.984031] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.c\n'}
+[2.984093] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_introspection_c.so\n'}
+[2.984155] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.984218] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_c.so\n'}
+[2.984279] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_c.so" to ""\n'}
+[2.984341] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma\n'}
+[2.984403] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv\n'}
+[2.984464] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail\n'}
+[2.984532] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.984691] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.cpp\n'}
+[2.984784] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_introspection_cpp.so\n'}
+[2.984863] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.984926] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_cpp.so\n'}
+[2.984988] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_cpp.so" to ""\n'}
+[2.985051] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/pythonpath.sh\n'}
+[2.985114] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/pythonpath.dsv\n'}
+[2.985177] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info\n'}
+[2.985240] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.985302] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.985364] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.985431] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.985521] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma\n'}
+[2.985593] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.985671] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.985742] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.985804] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/libinterfaz_servicio_suma__rosidl_generator_py.so\n'}
+[2.985864] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.985930] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.985995] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv\n'}
+[2.986066] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv/_add_two_ints.py\n'}
+[2.986130] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv/_add_two_ints_s.c\n'}
+[2.986195] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv/__init__.py\n'}
+[2.986260] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/__init__.py\n'}
+[2.986318] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_c.c\n'}
+[3.005224] (-) TimerEvent: {}
+[3.008493] (interfaz_servicio_suma) StdoutLine: {'line': b"Listing '/workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma'...\n"}
+[3.008626] (interfaz_servicio_suma) StdoutLine: {'line': b"Compiling '/workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/__init__.py'...\n"}
+[3.008695] (interfaz_servicio_suma) StdoutLine: {'line': b"Listing '/workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv'...\n"}
+[3.008757] (interfaz_servicio_suma) StdoutLine: {'line': b"Compiling '/workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv/__init__.py'...\n"}
+[3.008817] (interfaz_servicio_suma) StdoutLine: {'line': b"Compiling '/workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv/_add_two_ints.py'...\n"}
+[3.011539] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.011773] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.011868] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.011907] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.011966] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.012115] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.012153] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_generator_py.so\n'}
+[3.012288] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_generator_py.so" to ""\n'}
+[3.012348] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/srv/AddTwoInts.idl\n'}
+[3.012425] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/srv/AddTwoInts.srv\n'}
+[3.012492] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/srv/AddTwoInts_Request.msg\n'}
+[3.012574] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/srv/AddTwoInts_Response.msg\n'}
+[3.012682] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/ament_index/resource_index/package_run_dependencies/interfaz_servicio_suma\n'}
+[3.012770] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/ament_index/resource_index/parent_prefix_path/interfaz_servicio_suma\n'}
+[3.012857] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/ament_prefix_path.sh\n'}
+[3.012941] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/ament_prefix_path.dsv\n'}
+[3.013018] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/path.sh\n'}
+[3.013088] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/path.dsv\n'}
+[3.013169] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/local_setup.bash\n'}
+[3.013232] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/local_setup.sh\n'}
+[3.013299] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/local_setup.zsh\n'}
+[3.013363] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/local_setup.dsv\n'}
+[3.013427] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.dsv\n'}
+[3.013510] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/ament_index/resource_index/packages/interfaz_servicio_suma\n'}
+[3.013613] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_cExport.cmake\n'}
+[3.013717] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.013805] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.013880] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.013964] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_cppExport.cmake\n'}
+[3.014045] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.014116] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.014205] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.014275] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.014354] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_cExport.cmake\n'}
+[3.014429] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.014509] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.014599] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.014686] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_cppExport.cmake\n'}
+[3.014769] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.014847] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_pyExport.cmake\n'}
+[3.014928] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.015001] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/rosidl_cmake-extras.cmake\n'}
+[3.015070] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.015144] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.015213] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.015285] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.015357] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.015421] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.015490] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_sumaConfig.cmake\n'}
+[3.015557] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_sumaConfig-version.cmake\n'}
+[3.015627] (interfaz_servicio_suma) StdoutLine: {'line': b'-- Installing: /workspace/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.xml\n'}
+[3.017316] (interfaz_servicio_suma) CommandEnded: {'returncode': 0}
+[3.031169] (interfaz_servicio_suma) JobEnded: {'identifier': 'interfaz_servicio_suma', 'rc': 0}
+[3.032654] (servicio_suma) JobStarted: {'identifier': 'servicio_suma'}
+[3.105447] (-) TimerEvent: {}
+[3.205914] (-) TimerEvent: {}
+[3.306199] (-) TimerEvent: {}
+[3.387502] (servicio_suma) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/servicio_suma', 'build', '--build-base', '/workspace/build/servicio_suma/build', 'install', '--record', '/workspace/build/servicio_suma/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/ros2_ws/src/servicio_suma', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'portatil832', 'LIBGL_DEBUG': 'verbose', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/workspace/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/victor-docker', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/workspace/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/servicio_suma:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/workspace/build/servicio_suma', 'PYTHONPATH': '/workspace/build/servicio_suma/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/servicio_suma/lib/python3.10/site-packages:/workspace/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages:/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'TZ': 'Europe/Madrid', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/interfaz_servicio_suma'}, 'shell': False}
+[3.406392] (-) TimerEvent: {}
+[3.506715] (-) TimerEvent: {}
+[3.520277] (servicio_suma) StdoutLine: {'line': b'running egg_info\n'}
+[3.520486] (servicio_suma) StdoutLine: {'line': b'creating ../../../build/servicio_suma/servicio_suma.egg-info\n'}
+[3.520614] (servicio_suma) StdoutLine: {'line': b'writing ../../../build/servicio_suma/servicio_suma.egg-info/PKG-INFO\n'}
+[3.520743] (servicio_suma) StdoutLine: {'line': b'writing dependency_links to ../../../build/servicio_suma/servicio_suma.egg-info/dependency_links.txt\n'}
+[3.520887] (servicio_suma) StdoutLine: {'line': b'writing entry points to ../../../build/servicio_suma/servicio_suma.egg-info/entry_points.txt\n'}
+[3.520951] (servicio_suma) StdoutLine: {'line': b'writing requirements to ../../../build/servicio_suma/servicio_suma.egg-info/requires.txt\n'}
+[3.521020] (servicio_suma) StdoutLine: {'line': b'writing top-level names to ../../../build/servicio_suma/servicio_suma.egg-info/top_level.txt\n'}
+[3.521147] (servicio_suma) StdoutLine: {'line': b"writing manifest file '../../../build/servicio_suma/servicio_suma.egg-info/SOURCES.txt'\n"}
+[3.522010] (servicio_suma) StdoutLine: {'line': b"reading manifest file '../../../build/servicio_suma/servicio_suma.egg-info/SOURCES.txt'\n"}
+[3.522101] (servicio_suma) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.522384] (servicio_suma) StdoutLine: {'line': b"writing manifest file '../../../build/servicio_suma/servicio_suma.egg-info/SOURCES.txt'\n"}
+[3.522465] (servicio_suma) StdoutLine: {'line': b'running build\n'}
+[3.522531] (servicio_suma) StdoutLine: {'line': b'running build_py\n'}
+[3.522654] (servicio_suma) StdoutLine: {'line': b'creating /workspace/build/servicio_suma/build\n'}
+[3.522724] (servicio_suma) StdoutLine: {'line': b'creating /workspace/build/servicio_suma/build/lib\n'}
+[3.522788] (servicio_suma) StdoutLine: {'line': b'creating /workspace/build/servicio_suma/build/lib/servicio_suma\n'}
+[3.522852] (servicio_suma) StdoutLine: {'line': b'copying servicio_suma/add_two_ints_client.py -> /workspace/build/servicio_suma/build/lib/servicio_suma\n'}
+[3.522932] (servicio_suma) StdoutLine: {'line': b'copying servicio_suma/add_two_ints_server.py -> /workspace/build/servicio_suma/build/lib/servicio_suma\n'}
+[3.523019] (servicio_suma) StdoutLine: {'line': b'copying servicio_suma/__init__.py -> /workspace/build/servicio_suma/build/lib/servicio_suma\n'}
+[3.523082] (servicio_suma) StdoutLine: {'line': b'running install\n'}
+[3.523162] (servicio_suma) StdoutLine: {'line': b'running install_lib\n'}
+[3.523433] (servicio_suma) StdoutLine: {'line': b'creating /workspace/install/servicio_suma/lib/python3.10/site-packages/servicio_suma\n'}
+[3.523514] (servicio_suma) StdoutLine: {'line': b'copying /workspace/build/servicio_suma/build/lib/servicio_suma/add_two_ints_client.py -> /workspace/install/servicio_suma/lib/python3.10/site-packages/servicio_suma\n'}
+[3.523603] (servicio_suma) StdoutLine: {'line': b'copying /workspace/build/servicio_suma/build/lib/servicio_suma/add_two_ints_server.py -> /workspace/install/servicio_suma/lib/python3.10/site-packages/servicio_suma\n'}
+[3.523664] (servicio_suma) StdoutLine: {'line': b'copying /workspace/build/servicio_suma/build/lib/servicio_suma/__init__.py -> /workspace/install/servicio_suma/lib/python3.10/site-packages/servicio_suma\n'}
+[3.523861] (servicio_suma) StdoutLine: {'line': b'byte-compiling /workspace/install/servicio_suma/lib/python3.10/site-packages/servicio_suma/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc\n'}
+[3.524275] (servicio_suma) StdoutLine: {'line': b'byte-compiling /workspace/install/servicio_suma/lib/python3.10/site-packages/servicio_suma/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc\n'}
+[3.524441] (servicio_suma) StdoutLine: {'line': b'byte-compiling /workspace/install/servicio_suma/lib/python3.10/site-packages/servicio_suma/__init__.py to __init__.cpython-310.pyc\n'}
+[3.524519] (servicio_suma) StdoutLine: {'line': b'running install_data\n'}
+[3.524619] (servicio_suma) StdoutLine: {'line': b'creating /workspace/install/servicio_suma/share/ament_index\n'}
+[3.524690] (servicio_suma) StdoutLine: {'line': b'creating /workspace/install/servicio_suma/share/ament_index/resource_index\n'}
+[3.524773] (servicio_suma) StdoutLine: {'line': b'creating /workspace/install/servicio_suma/share/ament_index/resource_index/packages\n'}
+[3.524861] (servicio_suma) StdoutLine: {'line': b'copying resource/servicio_suma -> /workspace/install/servicio_suma/share/ament_index/resource_index/packages\n'}
+[3.524922] (servicio_suma) StdoutLine: {'line': b'copying package.xml -> /workspace/install/servicio_suma/share/servicio_suma\n'}
+[3.524980] (servicio_suma) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.526379] (servicio_suma) StdoutLine: {'line': b'Copying ../../../build/servicio_suma/servicio_suma.egg-info to /workspace/install/servicio_suma/lib/python3.10/site-packages/servicio_suma-0.0.0-py3.10.egg-info\n'}
+[3.526745] (servicio_suma) StdoutLine: {'line': b'running install_scripts\n'}
+[3.539237] (servicio_suma) StdoutLine: {'line': b'Installing client script to /workspace/install/servicio_suma/lib/servicio_suma\n'}
+[3.539369] (servicio_suma) StdoutLine: {'line': b'Installing server script to /workspace/install/servicio_suma/lib/servicio_suma\n'}
+[3.539471] (servicio_suma) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/servicio_suma/install.log'\n"}
+[3.555703] (servicio_suma) CommandEnded: {'returncode': 0}
+[3.559295] (servicio_suma) JobEnded: {'identifier': 'servicio_suma', 'rc': 0}
+[3.559732] (-) EventReactorShutdown: {}

@@ -1,0 +1,15 @@
+/workspace/ros2_ws/src/install/interfaz-p2/share/ament_index/resource_index/package_run_dependencies/interfaz-p2
+/workspace/ros2_ws/src/install/interfaz-p2/share/ament_index/resource_index/parent_prefix_path/interfaz-p2
+/workspace/ros2_ws/src/install/interfaz-p2/share/interfaz-p2/environment/ament_prefix_path.sh
+/workspace/ros2_ws/src/install/interfaz-p2/share/interfaz-p2/environment/ament_prefix_path.dsv
+/workspace/ros2_ws/src/install/interfaz-p2/share/interfaz-p2/environment/path.sh
+/workspace/ros2_ws/src/install/interfaz-p2/share/interfaz-p2/environment/path.dsv
+/workspace/ros2_ws/src/install/interfaz-p2/share/interfaz-p2/local_setup.bash
+/workspace/ros2_ws/src/install/interfaz-p2/share/interfaz-p2/local_setup.sh
+/workspace/ros2_ws/src/install/interfaz-p2/share/interfaz-p2/local_setup.zsh
+/workspace/ros2_ws/src/install/interfaz-p2/share/interfaz-p2/local_setup.dsv
+/workspace/ros2_ws/src/install/interfaz-p2/share/interfaz-p2/package.dsv
+/workspace/ros2_ws/src/install/interfaz-p2/share/ament_index/resource_index/packages/interfaz-p2
+/workspace/ros2_ws/src/install/interfaz-p2/share/interfaz-p2/cmake/interfaz-p2Config.cmake
+/workspace/ros2_ws/src/install/interfaz-p2/share/interfaz-p2/cmake/interfaz-p2Config-version.cmake
+/workspace/ros2_ws/src/install/interfaz-p2/share/interfaz-p2/package.xml

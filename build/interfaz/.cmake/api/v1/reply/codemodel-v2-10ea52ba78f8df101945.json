@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b7a3111d9cf6ee020f1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "interfaz__py",
+					"jsonFile" : "directory-interfaz__py-fd329c2f7b9a58e6992c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspace/build/interfaz/interfaz__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "interfaz",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_interfaz_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_interfaz_egg-38a78904024f64341317.json",
+					"name" : "ament_cmake_python_build_interfaz_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_interfaz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_interfaz-473076ca0378473f2bad.json",
+					"name" : "ament_cmake_python_symlink_interfaz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz-06a3cee01e424197f909.json",
+					"name" : "interfaz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz__cpp-7a9901cd494ab208da94.json",
+					"name" : "interfaz__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "interfaz__py::@45e6e245ba93624429fe",
+					"jsonFile" : "target-interfaz__py-bddcb9c2a12af8de2399.json",
+					"name" : "interfaz__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz__rosidl_generator_c-422160e6dcab6f032bc0.json",
+					"name" : "interfaz__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz__rosidl_generator_py-9397ef3fe9d8256e9f39.json",
+					"name" : "interfaz__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz__rosidl_typesupport_c-2cd9e01d8659585745f6.json",
+					"name" : "interfaz__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz__rosidl_typesupport_c__pyext-2760e84fbaa4b3b1fd52.json",
+					"name" : "interfaz__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz__rosidl_typesupport_cpp-c6fcef7e391ce7a5cf84.json",
+					"name" : "interfaz__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz__rosidl_typesupport_fastrtps_c-6795341669881ac55dc1.json",
+					"name" : "interfaz__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz__rosidl_typesupport_fastrtps_c__pyext-c5bbe74ac3fee830f378.json",
+					"name" : "interfaz__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz__rosidl_typesupport_fastrtps_cpp-42fd59e310aa23c4e953.json",
+					"name" : "interfaz__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz__rosidl_typesupport_introspection_c-f6775f1a63afb34930cd.json",
+					"name" : "interfaz__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz__rosidl_typesupport_introspection_c__pyext-50e9a767cdded794dda8.json",
+					"name" : "interfaz__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz__rosidl_typesupport_introspection_cpp-03b6a23d6ccd4e88e277.json",
+					"name" : "interfaz__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interfaz_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interfaz_uninstall-5eaff3eba68364e02955.json",
+					"name" : "interfaz_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2016b5906e7b026725c1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/build/interfaz",
+		"source" : "/workspace/ros2_ws/src/interfaz"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

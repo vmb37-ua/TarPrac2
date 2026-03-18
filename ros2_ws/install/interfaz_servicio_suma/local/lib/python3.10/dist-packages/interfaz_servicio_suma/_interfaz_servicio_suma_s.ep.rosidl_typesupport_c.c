@@ -1,0 +1,1 @@
+/workspace/ros2_ws/build/interfaz_servicio_suma/rosidl_generator_py/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_c.c

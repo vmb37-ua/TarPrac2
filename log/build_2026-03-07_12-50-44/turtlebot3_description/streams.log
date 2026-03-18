@@ -1,0 +1,20 @@
+[0.050s] Invoking command in '/workspace/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servicio_suma:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/battery_act:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/turtlebot3_description
+[0.971s] -- The C compiler identification is GNU 11.4.0
+[0.971s] -- The CXX compiler identification is GNU 11.4.0
+[0.971s] -- Detecting C compiler ABI info
+[0.971s] -- Detecting C compiler ABI info - done
+[0.971s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.971s] -- Detecting C compile features
+[0.971s] -- Detecting C compile features - done
+[0.971s] -- Detecting CXX compiler ABI info
+[0.971s] -- Detecting CXX compiler ABI info - done
+[0.971s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.972s] -- Detecting CXX compile features
+[0.972s] -- Detecting CXX compile features - done
+[0.972s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.972s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.972s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.972s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.038s] -- Configuring done
+[1.042s] -- Generating done
+[1.044s] -- Build files have been written to: /workspace/build/turtlebot3_description
