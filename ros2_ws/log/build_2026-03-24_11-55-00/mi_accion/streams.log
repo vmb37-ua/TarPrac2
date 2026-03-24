@@ -1,0 +1,25 @@
+[6.646s] Invoking command in '/workspace/ros2_ws/src/mi_accion': PYTHONPATH=/workspace/ros2_ws/build/mi_accion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mi_accion build --build-base /workspace/ros2_ws/build/mi_accion/build install --record /workspace/ros2_ws/build/mi_accion/install.log --single-version-externally-managed install_data
+[7.381s] running egg_info
+[7.386s] writing ../../build/mi_accion/mi_accion.egg-info/PKG-INFO
+[7.386s] writing dependency_links to ../../build/mi_accion/mi_accion.egg-info/dependency_links.txt
+[7.386s] writing entry points to ../../build/mi_accion/mi_accion.egg-info/entry_points.txt
+[7.387s] writing requirements to ../../build/mi_accion/mi_accion.egg-info/requires.txt
+[7.387s] writing top-level names to ../../build/mi_accion/mi_accion.egg-info/top_level.txt
+[7.388s] reading manifest file '../../build/mi_accion/mi_accion.egg-info/SOURCES.txt'
+[7.390s] adding license file 'LICENSE'
+[7.391s] writing manifest file '../../build/mi_accion/mi_accion.egg-info/SOURCES.txt'
+[7.391s] running build
+[7.391s] running build_py
+[7.392s] running install
+[7.392s] running install_lib
+[7.396s] running install_data
+[7.396s] running install_egg_info
+[7.403s] removing '/workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages/mi_accion-0.0.0-py3.10.egg-info' (and everything under it)
+[7.403s] Copying ../../build/mi_accion/mi_accion.egg-info to /workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages/mi_accion-0.0.0-py3.10.egg-info
+[7.406s] running install_scripts
+[7.470s] Installing client script to /workspace/ros2_ws/install/mi_accion/lib/mi_accion
+[7.471s] Installing ej_client script to /workspace/ros2_ws/install/mi_accion/lib/mi_accion
+[7.472s] Installing ej_server script to /workspace/ros2_ws/install/mi_accion/lib/mi_accion
+[7.473s] Installing server script to /workspace/ros2_ws/install/mi_accion/lib/mi_accion
+[7.478s] writing list of installed files to '/workspace/ros2_ws/build/mi_accion/install.log'
+[7.662s] Invoked command in '/workspace/ros2_ws/src/mi_accion' returned '0': PYTHONPATH=/workspace/ros2_ws/build/mi_accion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mi_accion build --build-base /workspace/ros2_ws/build/mi_accion/build install --record /workspace/ros2_ws/build/mi_accion/install.log --single-version-externally-managed install_data

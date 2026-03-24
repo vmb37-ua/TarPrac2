@@ -1,1 +1,0 @@
-/workspace/ros2_ws/src/mi_accion/setup.py

@@ -1,1 +1,0 @@
-/workspace/ros2_ws/src/p2pkg/setup.py

@@ -1,1 +1,0 @@
-/workspace/ros2_ws/src/service_temp/setup.py

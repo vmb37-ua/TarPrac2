@@ -1,1 +1,0 @@
-/workspace/ros2_ws/src/primer_paquete/setup.py

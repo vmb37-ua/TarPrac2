@@ -1,1 +1,0 @@
-/workspace/ros2_ws/src/battery_act/setup.py

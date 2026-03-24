@@ -1,0 +1,21 @@
+[0.649s] Invoking command in '/workspace/ros2_ws/build/vicpaq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/battery_act:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/vicpaq -- -j12 -l12
+[3.601s] Invoked command in '/workspace/ros2_ws/build/vicpaq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/battery_act:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/vicpaq -- -j12 -l12
+[3.603s] Invoking command in '/workspace/ros2_ws/build/vicpaq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/battery_act:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/vicpaq
+[3.669s] -- Install configuration: ""
+[3.672s] -- Execute custom install script
+[3.673s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/ament_index/resource_index/package_run_dependencies/vicpaq
+[3.673s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/ament_index/resource_index/parent_prefix_path/vicpaq
+[3.673s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/environment/ament_prefix_path.sh
+[3.673s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/environment/ament_prefix_path.dsv
+[3.673s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/environment/path.sh
+[3.673s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/environment/path.dsv
+[3.673s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/local_setup.bash
+[3.674s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/local_setup.sh
+[3.674s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/local_setup.zsh
+[3.674s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/local_setup.dsv
+[3.674s] -- Symlinking: /workspace/ros2_ws/install/vicpaq/share/vicpaq/package.dsv
+[3.674s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/ament_index/resource_index/packages/vicpaq
+[3.674s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/cmake/vicpaqConfig.cmake
+[3.674s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/cmake/vicpaqConfig-version.cmake
+[3.674s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/package.xml
+[3.724s] Invoked command in '/workspace/ros2_ws/build/vicpaq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/battery_act:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/vicpaq

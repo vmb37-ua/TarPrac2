@@ -1,0 +1,33 @@
+[3.222s] Invoking command in '/workspace/ros2_ws/build/paquete1': PYTHONPATH=/workspace/ros2_ws/build/paquete1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspace/ros2_ws/build/paquete1/build
+[3.937s] running develop
+[4.331s] Removing /workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages/paquete1.egg-link (link to .)
+[4.652s] Invoked command in '/workspace/ros2_ws/build/paquete1' returned '0': PYTHONPATH=/workspace/ros2_ws/build/paquete1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspace/ros2_ws/build/paquete1/build
+[4.654s] Invoking command in '/workspace/ros2_ws/src/paquete1': PYTHONPATH=/workspace/ros2_ws/build/paquete1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/paquete1 build --build-base /workspace/ros2_ws/build/paquete1/build install --record /workspace/ros2_ws/build/paquete1/install.log --single-version-externally-managed install_data --force
+[5.107s] running egg_info
+[5.108s] writing ../../build/paquete1/paquete1.egg-info/PKG-INFO
+[5.109s] writing dependency_links to ../../build/paquete1/paquete1.egg-info/dependency_links.txt
+[5.109s] writing entry points to ../../build/paquete1/paquete1.egg-info/entry_points.txt
+[5.109s] writing requirements to ../../build/paquete1/paquete1.egg-info/requires.txt
+[5.109s] writing top-level names to ../../build/paquete1/paquete1.egg-info/top_level.txt
+[5.112s] reading manifest file '../../build/paquete1/paquete1.egg-info/SOURCES.txt'
+[5.113s] adding license file 'LICENSE'
+[5.114s] writing manifest file '../../build/paquete1/paquete1.egg-info/SOURCES.txt'
+[5.114s] running build
+[5.115s] running build_py
+[5.115s] creating /workspace/ros2_ws/build/paquete1/build
+[5.115s] creating /workspace/ros2_ws/build/paquete1/build/lib
+[5.115s] creating /workspace/ros2_ws/build/paquete1/build/lib/paquete1
+[5.115s] copying paquete1/__init__.py -> /workspace/ros2_ws/build/paquete1/build/lib/paquete1
+[5.115s] running install
+[5.116s] running install_lib
+[5.117s] creating /workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages/paquete1
+[5.117s] copying /workspace/ros2_ws/build/paquete1/build/lib/paquete1/__init__.py -> /workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages/paquete1
+[5.118s] byte-compiling /workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages/paquete1/__init__.py to __init__.cpython-310.pyc
+[5.119s] running install_data
+[5.119s] copying resource/paquete1 -> /workspace/ros2_ws/install/paquete1/share/ament_index/resource_index/packages
+[5.119s] copying package.xml -> /workspace/ros2_ws/install/paquete1/share/paquete1
+[5.119s] running install_egg_info
+[5.124s] Copying ../../build/paquete1/paquete1.egg-info to /workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages/paquete1-0.0.0-py3.10.egg-info
+[5.126s] running install_scripts
+[5.164s] writing list of installed files to '/workspace/ros2_ws/build/paquete1/install.log'
+[6.818s] Invoked command in '/workspace/ros2_ws/src/paquete1' returned '0': PYTHONPATH=/workspace/ros2_ws/build/paquete1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/paquete1 build --build-base /workspace/ros2_ws/build/paquete1/build install --record /workspace/ros2_ws/build/paquete1/install.log --single-version-externally-managed install_data --force

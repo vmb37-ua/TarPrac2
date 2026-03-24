@@ -1,0 +1,21 @@
+[0.615s] Invoking command in '/workspace/ros2_ws/build/vicpaq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/battery_act:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/vicpaq -- -j12 -l12
+[4.576s] Invoked command in '/workspace/ros2_ws/build/vicpaq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/battery_act:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/vicpaq -- -j12 -l12
+[4.581s] Invoking command in '/workspace/ros2_ws/build/vicpaq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/battery_act:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/vicpaq
+[4.642s] -- Install configuration: ""
+[4.643s] -- Execute custom install script
+[4.643s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/ament_index/resource_index/package_run_dependencies/vicpaq
+[4.643s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/ament_index/resource_index/parent_prefix_path/vicpaq
+[4.643s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/environment/ament_prefix_path.sh
+[4.643s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/environment/ament_prefix_path.dsv
+[4.643s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/environment/path.sh
+[4.643s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/environment/path.dsv
+[4.643s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/local_setup.bash
+[4.644s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/local_setup.sh
+[4.644s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/local_setup.zsh
+[4.644s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/local_setup.dsv
+[4.644s] -- Symlinking: /workspace/ros2_ws/install/vicpaq/share/vicpaq/package.dsv
+[4.648s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/ament_index/resource_index/packages/vicpaq
+[4.649s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/cmake/vicpaqConfig.cmake
+[4.649s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/cmake/vicpaqConfig-version.cmake
+[4.655s] -- Up-to-date symlink: /workspace/ros2_ws/install/vicpaq/share/vicpaq/package.xml
+[4.720s] Invoked command in '/workspace/ros2_ws/build/vicpaq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/battery_act:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/vicpaq
