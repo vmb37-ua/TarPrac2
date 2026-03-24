@@ -3,16 +3,28 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
+from nav_msgs.msg import Odometry
 import sys
 import time
 import math
 
+# pasa de un angulo cualquiera a su valor entre -pi y pi
+def normalizar(angulo):
+    while angulo >  math.pi: angulo -= 2 * math.pi
+    while angulo < -math.pi: angulo += 2 * math.pi
+    return angulo
 
 class Movimiento(Node):
 
     def __init__(self, modo):
         super().__init__('movimiento')
         self.pub = self.create_publisher(Twist, '/cmd_vel', 10)
+        self.sub = self.create_subscription(Odometry, '/odom', self.odom_cb, 10)
+
+        self.x       = 0.0
+        self.y       = 0.0
+        self.yaw     = 0.0
+        self.odom_ok = False
 
         # pequeño tiempo para que el publisher conecte bien
         time.sleep(1.0)
@@ -29,6 +41,16 @@ class Movimiento(Node):
             self.get_logger().info("Modo no válido. Usa 0, 1, 2 o 3.")
 
         self.parar()
+
+    def odom_cb(self, msg):
+        self.x = msg.pose.pose.position.x
+        self.y = msg.pose.pose.position.y
+        
+        q = msg.pose.pose.orientation
+        siny_cosp = 2.0 * (q.w * q.z + q.x * q.y)
+        cosy_cosp = 1.0 - 2.0 * (q.y * q.y + q.z * q.z)
+        self.yaw = math.atan2(siny_cosp, cosy_cosp)
+        self.odom_ok = True
 
     def publicar(self, lin=0.0, ang=0.0, dur=1.0):
         msg = Twist()
@@ -52,11 +74,32 @@ class Movimiento(Node):
         self.parar()
 
     def girar(self, angulo):
-        w = 0.5
-        if angulo < 0:
-            w = -0.5
-        t = abs(angulo / w)
-        self.publicar(0.0, w, t)
+        Kp         = 1.5
+        tolerancia = 0.01   # tolerancia para decidir si ya hemos alcanzado el angulo objetivo
+        w_max      = 0.8    
+        w_min      = 0.05   
+
+        rclpy.spin_once(self, timeout_sec=0.05)
+        yaw_objetivo = normalizar(self.yaw + angulo)
+
+        msg = Twist()
+
+        while rclpy.ok():
+            rclpy.spin_once(self, timeout_sec=0.05)
+
+            error = normalizar(yaw_objetivo - self.yaw)
+
+            if abs(error) < tolerancia:
+                break
+
+            # Velocidad proporcional al error, limitada entre w_min y w_max
+            w = Kp * error
+            signo = 1.0 if w >= 0 else -1.0
+            w = signo * max(w_min, min(w_max, abs(w)))
+
+            msg.angular.z = w
+            self.pub.publish(msg)
+
         self.parar()
 
     def triangulo(self, lado):

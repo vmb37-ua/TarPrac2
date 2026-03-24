@@ -44,25 +44,6 @@ class Aparcamiento(Node):
         self.parar()
 
     def aparcar(self):
-        """
-        Maniobra de aparcamiento en 3 pasos.
-
-        Geometría de la plaza (Gazebo):
-          Wall izquierda: x=1.0, y: -1.05 -> -1.95
-          Wall derecha:   x=2.0, y: -1.05 -> -1.95
-          Wall fondo:     y=-1.95, x: 1.0 -> 2.0
-          Entrada:        y=-1.05, x: 1.0 -> 2.0
-          Centro plaza:   (1.5, -1.5)
-
-        Robot spawn: (0, 0) mirando +x (yaw=0)
-
-          (0,0) --- +x ---> (1.5, 0)
-                                |  giro -90 deg
-                                v
-                           (1.5,-1.05)  <- entrada
-                                |  avanza
-                           (1.5,-1.5)   <- centro plaza OK
-        """
         # avanzar hasta quedar frente al centro de la plaza
         self.lineal(1.5)
 
