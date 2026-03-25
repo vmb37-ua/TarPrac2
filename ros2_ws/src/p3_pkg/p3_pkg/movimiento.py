@@ -64,6 +64,7 @@ class Movimiento(Node):
 
     def parar(self):
         self.publicar(0.0, 0.0, 0.5)
+        time.sleep(0.2)
 
     def lineal(self, distancia):
         v = 0.2
@@ -75,9 +76,9 @@ class Movimiento(Node):
 
     def girar(self, angulo):
         Kp         = 1.5
-        tolerancia = 0.01   # tolerancia para decidir si ya hemos alcanzado el angulo objetivo
-        w_max      = 0.8    
-        w_min      = 0.05   
+        tolerancia = 0.001   # tolerancia para decidir si ya hemos alcanzado el angulo objetivo
+        w_max      = 0.6    
+        w_min      = 0.01   
 
         rclpy.spin_once(self, timeout_sec=0.05)
         yaw_objetivo = normalizar(self.yaw + angulo)
@@ -90,6 +91,8 @@ class Movimiento(Node):
             error = normalizar(yaw_objetivo - self.yaw)
 
             if abs(error) < tolerancia:
+                msg.angular.z=0.0
+                self.pub.publish(msg)
                 break
 
             # Velocidad proporcional al error, limitada entre w_min y w_max
@@ -110,7 +113,7 @@ class Movimiento(Node):
     def cuadrado(self, lado):
         for _ in range(4):
             self.lineal(lado)
-            self.girar(math.pi / 2)       # 90 grados
+            self.girar(-math.pi / 2)       # 90 grados
 
     def infinito(self):
 
