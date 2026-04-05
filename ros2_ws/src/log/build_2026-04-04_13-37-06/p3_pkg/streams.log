@@ -1,0 +1,53 @@
+[2.254s] Invoking command in '/workspace/ros2_ws/src/p3_pkg': PYTHONPATH=/workspace/ros2_ws/src/build/p3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/src/install/p3_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p3_pkg build --build-base /workspace/ros2_ws/src/build/p3_pkg/build install --record /workspace/ros2_ws/src/build/p3_pkg/install.log --single-version-externally-managed install_data
+[2.754s] running egg_info
+[2.754s] creating ../build/p3_pkg/p3_pkg.egg-info
+[2.754s] writing ../build/p3_pkg/p3_pkg.egg-info/PKG-INFO
+[2.754s] writing dependency_links to ../build/p3_pkg/p3_pkg.egg-info/dependency_links.txt
+[2.755s] writing entry points to ../build/p3_pkg/p3_pkg.egg-info/entry_points.txt
+[2.755s] writing requirements to ../build/p3_pkg/p3_pkg.egg-info/requires.txt
+[2.755s] writing top-level names to ../build/p3_pkg/p3_pkg.egg-info/top_level.txt
+[2.756s] writing manifest file '../build/p3_pkg/p3_pkg.egg-info/SOURCES.txt'
+[2.756s] reading manifest file '../build/p3_pkg/p3_pkg.egg-info/SOURCES.txt'
+[2.756s] writing manifest file '../build/p3_pkg/p3_pkg.egg-info/SOURCES.txt'
+[2.756s] running build
+[2.756s] running build_py
+[2.757s] creating /workspace/ros2_ws/src/build/p3_pkg/build
+[2.757s] creating /workspace/ros2_ws/src/build/p3_pkg/build/lib
+[2.757s] creating /workspace/ros2_ws/src/build/p3_pkg/build/lib/p3_pkg
+[2.757s] copying p3_pkg/movimiento.py -> /workspace/ros2_ws/src/build/p3_pkg/build/lib/p3_pkg
+[2.757s] copying p3_pkg/aparcamiento.py -> /workspace/ros2_ws/src/build/p3_pkg/build/lib/p3_pkg
+[2.757s] copying p3_pkg/dibuja_mov.py -> /workspace/ros2_ws/src/build/p3_pkg/build/lib/p3_pkg
+[2.758s] copying p3_pkg/__init__.py -> /workspace/ros2_ws/src/build/p3_pkg/build/lib/p3_pkg
+[2.758s] running install
+[2.758s] running install_lib
+[2.759s] creating /workspace/ros2_ws/src/install/p3_pkg/lib/python3.10/site-packages/p3_pkg
+[2.759s] copying /workspace/ros2_ws/src/build/p3_pkg/build/lib/p3_pkg/movimiento.py -> /workspace/ros2_ws/src/install/p3_pkg/lib/python3.10/site-packages/p3_pkg
+[2.759s] copying /workspace/ros2_ws/src/build/p3_pkg/build/lib/p3_pkg/aparcamiento.py -> /workspace/ros2_ws/src/install/p3_pkg/lib/python3.10/site-packages/p3_pkg
+[2.759s] copying /workspace/ros2_ws/src/build/p3_pkg/build/lib/p3_pkg/dibuja_mov.py -> /workspace/ros2_ws/src/install/p3_pkg/lib/python3.10/site-packages/p3_pkg
+[2.759s] copying /workspace/ros2_ws/src/build/p3_pkg/build/lib/p3_pkg/__init__.py -> /workspace/ros2_ws/src/install/p3_pkg/lib/python3.10/site-packages/p3_pkg
+[2.759s] byte-compiling /workspace/ros2_ws/src/install/p3_pkg/lib/python3.10/site-packages/p3_pkg/movimiento.py to movimiento.cpython-310.pyc
+[2.759s] byte-compiling /workspace/ros2_ws/src/install/p3_pkg/lib/python3.10/site-packages/p3_pkg/aparcamiento.py to aparcamiento.cpython-310.pyc
+[2.759s] byte-compiling /workspace/ros2_ws/src/install/p3_pkg/lib/python3.10/site-packages/p3_pkg/dibuja_mov.py to dibuja_mov.cpython-310.pyc
+[2.759s] byte-compiling /workspace/ros2_ws/src/install/p3_pkg/lib/python3.10/site-packages/p3_pkg/__init__.py to __init__.cpython-310.pyc
+[2.760s] running install_data
+[2.760s] creating /workspace/ros2_ws/src/install/p3_pkg/share/ament_index
+[2.760s] creating /workspace/ros2_ws/src/install/p3_pkg/share/ament_index/resource_index
+[2.760s] creating /workspace/ros2_ws/src/install/p3_pkg/share/ament_index/resource_index/packages
+[2.760s] copying resource/p3_pkg -> /workspace/ros2_ws/src/install/p3_pkg/share/ament_index/resource_index/packages
+[2.760s] copying package.xml -> /workspace/ros2_ws/src/install/p3_pkg/share/p3_pkg
+[2.760s] creating /workspace/ros2_ws/src/install/p3_pkg/share/p3_pkg/launch
+[2.760s] copying launch/parking_tb3.launch.py -> /workspace/ros2_ws/src/install/p3_pkg/share/p3_pkg/launch
+[2.760s] creating /workspace/ros2_ws/src/install/p3_pkg/share/p3_pkg/worlds
+[2.760s] copying worlds/parking.world -> /workspace/ros2_ws/src/install/p3_pkg/share/p3_pkg/worlds
+[2.760s] creating /workspace/ros2_ws/src/install/p3_pkg/share/p3_pkg/models
+[2.760s] creating /workspace/ros2_ws/src/install/p3_pkg/share/p3_pkg/models/parking
+[2.760s] copying models/parking/model.config -> /workspace/ros2_ws/src/install/p3_pkg/share/p3_pkg/models/parking
+[2.761s] copying models/parking/model.sdf -> /workspace/ros2_ws/src/install/p3_pkg/share/p3_pkg/models/parking
+[2.761s] running install_egg_info
+[2.761s] Copying ../build/p3_pkg/p3_pkg.egg-info to /workspace/ros2_ws/src/install/p3_pkg/lib/python3.10/site-packages/p3_pkg-0.0.0-py3.10.egg-info
+[2.761s] running install_scripts
+[2.770s] Installing aparcamiento script to /workspace/ros2_ws/src/install/p3_pkg/lib/p3_pkg
+[2.770s] Installing dibuja_mov script to /workspace/ros2_ws/src/install/p3_pkg/lib/p3_pkg
+[2.771s] Installing movimiento script to /workspace/ros2_ws/src/install/p3_pkg/lib/p3_pkg
+[2.771s] writing list of installed files to '/workspace/ros2_ws/src/build/p3_pkg/install.log'
+[2.850s] Invoked command in '/workspace/ros2_ws/src/p3_pkg' returned '0': PYTHONPATH=/workspace/ros2_ws/src/build/p3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/src/install/p3_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p3_pkg build --build-base /workspace/ros2_ws/src/build/p3_pkg/build install --record /workspace/ros2_ws/src/build/p3_pkg/install.log --single-version-externally-managed install_data

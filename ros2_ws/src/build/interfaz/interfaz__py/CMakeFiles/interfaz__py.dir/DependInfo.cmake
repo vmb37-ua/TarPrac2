@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_c.c" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_introspection_c.c" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/action/__init__.py" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/action/_battery.py" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/action/_battery_s.c" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/action/_ej_fibonacci.py" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/action/_ej_fibonacci_s.c" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/action/_fibonacci.py" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/action/_fibonacci_s.c" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/msg/__init__.py" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
@@ -22,6 +26,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/msg/_mi_mensaje_s.c" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/msg/_p2pkg_mensaje.py" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/msg/_p2pkg_mensaje_s.c" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/srv/__init__.py" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/srv/_convert_temp.py" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/srv/_convert_temp_s.c" "/workspace/ros2_ws/src/build/interfaz/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

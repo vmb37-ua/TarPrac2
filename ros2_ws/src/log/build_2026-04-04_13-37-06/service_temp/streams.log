@@ -1,0 +1,42 @@
+[2.588s] Invoking command in '/workspace/ros2_ws/src/service_temp': CMAKE_PREFIX_PATH=/workspace/ros2_ws/src/install/interfaz:/workspace/ros2_ws/src/install/vicpaq:/workspace/ros2_ws/src/install/p2pkg:/workspace/ros2_ws/src/install/interfaz_servicio_suma:/workspace/ros2_ws/src/install/interfaz-p2:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/turtlebot3:/workspace/ros2_ws/install/turtlebot3_simulations:/workspace/ros2_ws/install/turtlebot3_bringup:/workspace/ros2_ws/install/turtlebot3_node:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_fake_node:/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/ros2_ws/install/turtlebot3_manipulation_gazebo:/workspace/ros2_ws/install/turtlebot3_gazebo:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma LD_LIBRARY_PATH=/workspace/ros2_ws/src/install/interfaz/lib:/workspace/ros2_ws/src/install/interfaz_servicio_suma/lib:/workspace/ros2_ws/install/turtlebot3_msgs/lib:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/workspace/ros2_ws/install/interfaz/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/src/build/service_temp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/src/install/service_temp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/service_temp build --build-base /workspace/ros2_ws/src/build/service_temp/build install --record /workspace/ros2_ws/src/build/service_temp/install.log --single-version-externally-managed install_data
+[3.244s] running egg_info
+[3.245s] creating ../build/service_temp/service_temp.egg-info
+[3.249s] writing ../build/service_temp/service_temp.egg-info/PKG-INFO
+[3.249s] writing dependency_links to ../build/service_temp/service_temp.egg-info/dependency_links.txt
+[3.249s] writing entry points to ../build/service_temp/service_temp.egg-info/entry_points.txt
+[3.251s] writing requirements to ../build/service_temp/service_temp.egg-info/requires.txt
+[3.252s] writing top-level names to ../build/service_temp/service_temp.egg-info/top_level.txt
+[3.252s] writing manifest file '../build/service_temp/service_temp.egg-info/SOURCES.txt'
+[3.262s] reading manifest file '../build/service_temp/service_temp.egg-info/SOURCES.txt'
+[3.262s] adding license file 'LICENSE'
+[3.263s] writing manifest file '../build/service_temp/service_temp.egg-info/SOURCES.txt'
+[3.263s] running build
+[3.264s] running build_py
+[3.264s] creating /workspace/ros2_ws/src/build/service_temp/build
+[3.267s] creating /workspace/ros2_ws/src/build/service_temp/build/lib
+[3.267s] creating /workspace/ros2_ws/src/build/service_temp/build/lib/service_temp
+[3.267s] copying service_temp/temp_client.py -> /workspace/ros2_ws/src/build/service_temp/build/lib/service_temp
+[3.268s] copying service_temp/temp_server.py -> /workspace/ros2_ws/src/build/service_temp/build/lib/service_temp
+[3.268s] copying service_temp/__init__.py -> /workspace/ros2_ws/src/build/service_temp/build/lib/service_temp
+[3.268s] running install
+[3.268s] running install_lib
+[3.272s] creating /workspace/ros2_ws/src/install/service_temp/lib/python3.10/site-packages/service_temp
+[3.272s] copying /workspace/ros2_ws/src/build/service_temp/build/lib/service_temp/temp_client.py -> /workspace/ros2_ws/src/install/service_temp/lib/python3.10/site-packages/service_temp
+[3.272s] copying /workspace/ros2_ws/src/build/service_temp/build/lib/service_temp/temp_server.py -> /workspace/ros2_ws/src/install/service_temp/lib/python3.10/site-packages/service_temp
+[3.278s] copying /workspace/ros2_ws/src/build/service_temp/build/lib/service_temp/__init__.py -> /workspace/ros2_ws/src/install/service_temp/lib/python3.10/site-packages/service_temp
+[3.278s] byte-compiling /workspace/ros2_ws/src/install/service_temp/lib/python3.10/site-packages/service_temp/temp_client.py to temp_client.cpython-310.pyc
+[3.278s] byte-compiling /workspace/ros2_ws/src/install/service_temp/lib/python3.10/site-packages/service_temp/temp_server.py to temp_server.cpython-310.pyc
+[3.278s] byte-compiling /workspace/ros2_ws/src/install/service_temp/lib/python3.10/site-packages/service_temp/__init__.py to __init__.cpython-310.pyc
+[3.279s] running install_data
+[3.279s] creating /workspace/ros2_ws/src/install/service_temp/share/ament_index
+[3.279s] creating /workspace/ros2_ws/src/install/service_temp/share/ament_index/resource_index
+[3.279s] creating /workspace/ros2_ws/src/install/service_temp/share/ament_index/resource_index/packages
+[3.281s] copying resource/service_temp -> /workspace/ros2_ws/src/install/service_temp/share/ament_index/resource_index/packages
+[3.284s] copying package.xml -> /workspace/ros2_ws/src/install/service_temp/share/service_temp
+[3.285s] running install_egg_info
+[3.291s] Copying ../build/service_temp/service_temp.egg-info to /workspace/ros2_ws/src/install/service_temp/lib/python3.10/site-packages/service_temp-0.0.0-py3.10.egg-info
+[3.292s] running install_scripts
+[3.330s] Installing client script to /workspace/ros2_ws/src/install/service_temp/lib/service_temp
+[3.330s] Installing server script to /workspace/ros2_ws/src/install/service_temp/lib/service_temp
+[3.331s] writing list of installed files to '/workspace/ros2_ws/src/build/service_temp/install.log'
+[3.384s] Invoked command in '/workspace/ros2_ws/src/service_temp' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/src/install/interfaz:/workspace/ros2_ws/src/install/vicpaq:/workspace/ros2_ws/src/install/p2pkg:/workspace/ros2_ws/src/install/interfaz_servicio_suma:/workspace/ros2_ws/src/install/interfaz-p2:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/turtlebot3:/workspace/ros2_ws/install/turtlebot3_simulations:/workspace/ros2_ws/install/turtlebot3_bringup:/workspace/ros2_ws/install/turtlebot3_node:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_fake_node:/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/ros2_ws/install/turtlebot3_manipulation_gazebo:/workspace/ros2_ws/install/turtlebot3_gazebo:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma LD_LIBRARY_PATH=/workspace/ros2_ws/src/install/interfaz/lib:/workspace/ros2_ws/src/install/interfaz_servicio_suma/lib:/workspace/ros2_ws/install/turtlebot3_msgs/lib:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/workspace/ros2_ws/install/interfaz/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/src/build/service_temp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/src/install/service_temp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/service_temp build --build-base /workspace/ros2_ws/src/build/service_temp/build install --record /workspace/ros2_ws/src/build/service_temp/install.log --single-version-externally-managed install_data

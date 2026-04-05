@@ -85,6 +85,9 @@ rosidl_generator_c/interfaz/msg/mi_mensaje.h: /opt/ros/humble/share/rosidl_gener
 rosidl_generator_c/interfaz/msg/mi_mensaje.h: rosidl_adapter/interfaz/msg/MiMensaje.idl
 rosidl_generator_c/interfaz/msg/mi_mensaje.h: rosidl_adapter/interfaz/msg/P2pkgMensaje.idl
 rosidl_generator_c/interfaz/msg/mi_mensaje.h: rosidl_adapter/interfaz/action/Fibonacci.idl
+rosidl_generator_c/interfaz/msg/mi_mensaje.h: rosidl_adapter/interfaz/action/EjFibonacci.idl
+rosidl_generator_c/interfaz/msg/mi_mensaje.h: rosidl_adapter/interfaz/srv/ConvertTemp.idl
+rosidl_generator_c/interfaz/msg/mi_mensaje.h: rosidl_adapter/interfaz/action/Battery.idl
 rosidl_generator_c/interfaz/msg/mi_mensaje.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_c/interfaz/msg/mi_mensaje.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_c/interfaz/msg/mi_mensaje.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -190,6 +193,42 @@ rosidl_generator_c/interfaz/action/detail/fibonacci__struct.h: rosidl_generator_
 rosidl_generator_c/interfaz/action/detail/fibonacci__type_support.h: rosidl_generator_c/interfaz/msg/mi_mensaje.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/action/detail/fibonacci__type_support.h
 
+rosidl_generator_c/interfaz/action/ej_fibonacci.h: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/action/ej_fibonacci.h
+
+rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.h: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.h
+
+rosidl_generator_c/interfaz/action/detail/ej_fibonacci__struct.h: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/action/detail/ej_fibonacci__struct.h
+
+rosidl_generator_c/interfaz/action/detail/ej_fibonacci__type_support.h: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/action/detail/ej_fibonacci__type_support.h
+
+rosidl_generator_c/interfaz/srv/convert_temp.h: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/srv/convert_temp.h
+
+rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.h: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.h
+
+rosidl_generator_c/interfaz/srv/detail/convert_temp__struct.h: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/srv/detail/convert_temp__struct.h
+
+rosidl_generator_c/interfaz/srv/detail/convert_temp__type_support.h: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/srv/detail/convert_temp__type_support.h
+
+rosidl_generator_c/interfaz/action/battery.h: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/action/battery.h
+
+rosidl_generator_c/interfaz/action/detail/battery__functions.h: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/action/detail/battery__functions.h
+
+rosidl_generator_c/interfaz/action/detail/battery__struct.h: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/action/detail/battery__struct.h
+
+rosidl_generator_c/interfaz/action/detail/battery__type_support.h: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/action/detail/battery__type_support.h
+
 rosidl_generator_c/interfaz/msg/detail/mi_mensaje__functions.c: rosidl_generator_c/interfaz/msg/mi_mensaje.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/msg/detail/mi_mensaje__functions.c
 
@@ -198,6 +237,15 @@ rosidl_generator_c/interfaz/msg/detail/p2pkg_mensaje__functions.c: rosidl_genera
 
 rosidl_generator_c/interfaz/action/detail/fibonacci__functions.c: rosidl_generator_c/interfaz/msg/mi_mensaje.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/action/detail/fibonacci__functions.c
+
+rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c
+
+rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c
+
+rosidl_generator_c/interfaz/action/detail/battery__functions.c: rosidl_generator_c/interfaz/msg/mi_mensaje.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaz/action/detail/battery__functions.c
 
 CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/msg/detail/mi_mensaje__functions.c.o: CMakeFiles/interfaz__rosidl_generator_c.dir/flags.make
 CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/msg/detail/mi_mensaje__functions.c.o: rosidl_generator_c/interfaz/msg/detail/mi_mensaje__functions.c
@@ -241,11 +289,56 @@ CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/d
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/fibonacci__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/fibonacci__functions.c -o CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/fibonacci__functions.c.s
 
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.o: CMakeFiles/interfaz__rosidl_generator_c.dir/flags.make
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.o: rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.o: CMakeFiles/interfaz__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/ros2_ws/src/build/interfaz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.o -MF CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.o.d -o CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.o -c /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c
+
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c > CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.i
+
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c -o CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.s
+
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.o: CMakeFiles/interfaz__rosidl_generator_c.dir/flags.make
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.o: rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.o: CMakeFiles/interfaz__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/ros2_ws/src/build/interfaz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.o -MF CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.o.d -o CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.o -c /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c
+
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c > CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.i
+
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c -o CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.s
+
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.o: CMakeFiles/interfaz__rosidl_generator_c.dir/flags.make
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.o: rosidl_generator_c/interfaz/action/detail/battery__functions.c
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.o: CMakeFiles/interfaz__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/ros2_ws/src/build/interfaz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.o -MF CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.o.d -o CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.o -c /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/battery__functions.c
+
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/battery__functions.c > CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.i
+
+CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/battery__functions.c -o CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.s
+
 # Object files for target interfaz__rosidl_generator_c
 interfaz__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/msg/detail/mi_mensaje__functions.c.o" \
 "CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/msg/detail/p2pkg_mensaje__functions.c.o" \
-"CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/fibonacci__functions.c.o"
+"CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/fibonacci__functions.c.o" \
+"CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.o" \
+"CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.o" \
+"CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.o"
 
 # External object files for target interfaz__rosidl_generator_c
 interfaz__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -253,6 +346,9 @@ interfaz__rosidl_generator_c_EXTERNAL_OBJECTS =
 libinterfaz__rosidl_generator_c.so: CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/msg/detail/mi_mensaje__functions.c.o
 libinterfaz__rosidl_generator_c.so: CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/msg/detail/p2pkg_mensaje__functions.c.o
 libinterfaz__rosidl_generator_c.so: CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/fibonacci__functions.c.o
+libinterfaz__rosidl_generator_c.so: CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.o
+libinterfaz__rosidl_generator_c.so: CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.o
+libinterfaz__rosidl_generator_c.so: CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/battery__functions.c.o
 libinterfaz__rosidl_generator_c.so: CMakeFiles/interfaz__rosidl_generator_c.dir/build.make
 libinterfaz__rosidl_generator_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 libinterfaz__rosidl_generator_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
@@ -262,7 +358,7 @@ libinterfaz__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__r
 libinterfaz__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libinterfaz__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libinterfaz__rosidl_generator_c.so: CMakeFiles/interfaz__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/ros2_ws/src/build/interfaz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libinterfaz__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/ros2_ws/src/build/interfaz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libinterfaz__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interfaz__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -273,10 +369,20 @@ CMakeFiles/interfaz__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/interfaz__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/interfaz__rosidl_generator_c.dir/clean
 
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/battery.h
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/detail/battery__functions.c
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/detail/battery__functions.h
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/detail/battery__struct.h
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/detail/battery__type_support.h
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.h
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/detail/ej_fibonacci__struct.h
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/detail/ej_fibonacci__type_support.h
 CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/detail/fibonacci__functions.c
 CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/detail/fibonacci__functions.h
 CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/detail/fibonacci__struct.h
 CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/detail/fibonacci__type_support.h
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/ej_fibonacci.h
 CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/action/fibonacci.h
 CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/msg/detail/mi_mensaje__functions.c
 CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/msg/detail/mi_mensaje__functions.h
@@ -288,6 +394,11 @@ CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/
 CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/msg/detail/p2pkg_mensaje__type_support.h
 CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/msg/mi_mensaje.h
 CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/msg/p2pkg_mensaje.h
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/srv/convert_temp.h
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.h
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/srv/detail/convert_temp__struct.h
+CMakeFiles/interfaz__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaz/srv/detail/convert_temp__type_support.h
 	cd /workspace/ros2_ws/src/build/interfaz && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/ros2_ws/src/interfaz /workspace/ros2_ws/src/interfaz /workspace/ros2_ws/src/build/interfaz /workspace/ros2_ws/src/build/interfaz /workspace/ros2_ws/src/build/interfaz/CMakeFiles/interfaz__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/interfaz__rosidl_generator_c.dir/depend
 

@@ -105,15 +105,15 @@ namespace action
 namespace builder
 {
 
-class Init_Fibonacci_Feedback_secuancia_actual
+class Init_Fibonacci_Feedback_secuencia_actual
 {
 public:
-  Init_Fibonacci_Feedback_secuancia_actual()
+  Init_Fibonacci_Feedback_secuencia_actual()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::interfaz::action::Fibonacci_Feedback secuancia_actual(::interfaz::action::Fibonacci_Feedback::_secuancia_actual_type arg)
+  ::interfaz::action::Fibonacci_Feedback secuencia_actual(::interfaz::action::Fibonacci_Feedback::_secuencia_actual_type arg)
   {
-    msg_.secuancia_actual = std::move(arg);
+    msg_.secuencia_actual = std::move(arg);
     return std::move(msg_);
   }
 
@@ -132,7 +132,7 @@ template<>
 inline
 auto build<::interfaz::action::Fibonacci_Feedback>()
 {
-  return interfaz::action::builder::Init_Fibonacci_Feedback_secuancia_actual();
+  return interfaz::action::builder::Init_Fibonacci_Feedback_secuencia_actual();
 }
 
 }  // namespace interfaz

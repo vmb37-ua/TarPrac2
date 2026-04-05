@@ -213,8 +213,17 @@ CMakeFiles/interfaz__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_p
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/msg/detail/p2pkg_mensaje__functions.h \
+ /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/srv/detail/convert_temp__type_support.h \
+ /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/srv/detail/convert_temp__struct.h \
+ /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.h \
  /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/fibonacci__type_support.h \
  /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/fibonacci__struct.h \
  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/fibonacci__functions.h
+ /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/fibonacci__functions.h \
+ /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__type_support.h \
+ /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__struct.h \
+ /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.h \
+ /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/battery__type_support.h \
+ /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/battery__struct.h \
+ /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/battery__functions.h

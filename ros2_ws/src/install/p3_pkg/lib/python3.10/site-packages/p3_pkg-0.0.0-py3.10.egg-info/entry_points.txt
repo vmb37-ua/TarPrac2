@@ -1,0 +1,5 @@
+[console_scripts]
+aparcamiento = p3_pkg.aparcamiento:main
+dibuja_mov = p3_pkg.dibuja_mov:main
+movimiento = p3_pkg.movimiento:main
+

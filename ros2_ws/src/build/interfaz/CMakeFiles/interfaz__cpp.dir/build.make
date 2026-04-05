@@ -81,6 +81,21 @@ CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/fibonacci_
 CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/fibonacci__struct.hpp
 CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/fibonacci__traits.hpp
 CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/fibonacci__type_support.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/ej_fibonacci.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__builder.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__struct.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__traits.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__type_support.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/srv/convert_temp.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/srv/detail/convert_temp__builder.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/srv/detail/convert_temp__struct.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/srv/detail/convert_temp__traits.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/srv/detail/convert_temp__type_support.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/battery.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/battery__builder.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/battery__struct.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/battery__traits.hpp
+CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/battery__type_support.hpp
 CMakeFiles/interfaz__cpp: rosidl_generator_cpp/interfaz/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -101,6 +116,9 @@ rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp: /opt/ros/humble/share/rosidl_g
 rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp: rosidl_adapter/interfaz/msg/MiMensaje.idl
 rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp: rosidl_adapter/interfaz/msg/P2pkgMensaje.idl
 rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp: rosidl_adapter/interfaz/action/Fibonacci.idl
+rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp: rosidl_adapter/interfaz/action/EjFibonacci.idl
+rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp: rosidl_adapter/interfaz/srv/ConvertTemp.idl
+rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp: rosidl_adapter/interfaz/action/Battery.idl
 rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -215,11 +233,66 @@ rosidl_generator_cpp/interfaz/action/detail/fibonacci__traits.hpp: rosidl_genera
 rosidl_generator_cpp/interfaz/action/detail/fibonacci__type_support.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/action/detail/fibonacci__type_support.hpp
 
+rosidl_generator_cpp/interfaz/action/ej_fibonacci.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/action/ej_fibonacci.hpp
+
+rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__builder.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__builder.hpp
+
+rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__struct.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__struct.hpp
+
+rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__traits.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__traits.hpp
+
+rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__type_support.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__type_support.hpp
+
+rosidl_generator_cpp/interfaz/srv/convert_temp.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/srv/convert_temp.hpp
+
+rosidl_generator_cpp/interfaz/srv/detail/convert_temp__builder.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/srv/detail/convert_temp__builder.hpp
+
+rosidl_generator_cpp/interfaz/srv/detail/convert_temp__struct.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/srv/detail/convert_temp__struct.hpp
+
+rosidl_generator_cpp/interfaz/srv/detail/convert_temp__traits.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/srv/detail/convert_temp__traits.hpp
+
+rosidl_generator_cpp/interfaz/srv/detail/convert_temp__type_support.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/srv/detail/convert_temp__type_support.hpp
+
+rosidl_generator_cpp/interfaz/action/battery.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/action/battery.hpp
+
+rosidl_generator_cpp/interfaz/action/detail/battery__builder.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/action/detail/battery__builder.hpp
+
+rosidl_generator_cpp/interfaz/action/detail/battery__struct.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/action/detail/battery__struct.hpp
+
+rosidl_generator_cpp/interfaz/action/detail/battery__traits.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/action/detail/battery__traits.hpp
+
+rosidl_generator_cpp/interfaz/action/detail/battery__type_support.hpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaz/action/detail/battery__type_support.hpp
+
 interfaz__cpp: CMakeFiles/interfaz__cpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/action/battery.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/battery__builder.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/battery__struct.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/battery__traits.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/battery__type_support.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__builder.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__struct.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__traits.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/ej_fibonacci__type_support.hpp
 interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/fibonacci__builder.hpp
 interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/fibonacci__struct.hpp
 interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/fibonacci__traits.hpp
 interfaz__cpp: rosidl_generator_cpp/interfaz/action/detail/fibonacci__type_support.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/action/ej_fibonacci.hpp
 interfaz__cpp: rosidl_generator_cpp/interfaz/action/fibonacci.hpp
 interfaz__cpp: rosidl_generator_cpp/interfaz/msg/detail/mi_mensaje__builder.hpp
 interfaz__cpp: rosidl_generator_cpp/interfaz/msg/detail/mi_mensaje__struct.hpp
@@ -231,6 +304,11 @@ interfaz__cpp: rosidl_generator_cpp/interfaz/msg/detail/p2pkg_mensaje__traits.hp
 interfaz__cpp: rosidl_generator_cpp/interfaz/msg/detail/p2pkg_mensaje__type_support.hpp
 interfaz__cpp: rosidl_generator_cpp/interfaz/msg/mi_mensaje.hpp
 interfaz__cpp: rosidl_generator_cpp/interfaz/msg/p2pkg_mensaje.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/srv/convert_temp.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/srv/detail/convert_temp__builder.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/srv/detail/convert_temp__struct.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/srv/detail/convert_temp__traits.hpp
+interfaz__cpp: rosidl_generator_cpp/interfaz/srv/detail/convert_temp__type_support.hpp
 interfaz__cpp: CMakeFiles/interfaz__cpp.dir/build.make
 .PHONY : interfaz__cpp
 

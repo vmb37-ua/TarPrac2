@@ -9,7 +9,13 @@ setup.py
 ../build/mi_accion/mi_accion.egg-info/requires.txt
 ../build/mi_accion/mi_accion.egg-info/top_level.txt
 ../build/mi_accion/mi_accion.egg-info/zip-safe
+launch/launch_ejercicio3.py
+launch/launch_ejercicio4.py
 mi_accion/__init__.py
+mi_accion/ejercicios_fibClient.py
+mi_accion/ejercicios_fibServer.py
+mi_accion/fibonacci_action_client.py
+mi_accion/fibonacci_action_server.py
 resource/mi_accion
 test/test_copyright.py
 test/test_flake8.py

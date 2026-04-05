@@ -458,9 +458,9 @@ extern "C"
 #endif
 
 // already included above
-// #include "rosidl_runtime_c/primitives_sequence.h"  // secuancia_actual
+// #include "rosidl_runtime_c/primitives_sequence.h"  // secuencia_actual
 // already included above
-// #include "rosidl_runtime_c/primitives_sequence_functions.h"  // secuancia_actual
+// #include "rosidl_runtime_c/primitives_sequence_functions.h"  // secuencia_actual
 
 // forward declare type support functions
 
@@ -476,10 +476,10 @@ static bool _Fibonacci_Feedback__cdr_serialize(
     return false;
   }
   const _Fibonacci_Feedback__ros_msg_type * ros_message = static_cast<const _Fibonacci_Feedback__ros_msg_type *>(untyped_ros_message);
-  // Field name: secuancia_actual
+  // Field name: secuencia_actual
   {
-    size_t size = ros_message->secuancia_actual.size;
-    auto array_ptr = ros_message->secuancia_actual.data;
+    size_t size = ros_message->secuencia_actual.size;
+    auto array_ptr = ros_message->secuencia_actual.data;
     cdr << static_cast<uint32_t>(size);
     cdr.serializeArray(array_ptr, size);
   }
@@ -496,7 +496,7 @@ static bool _Fibonacci_Feedback__cdr_deserialize(
     return false;
   }
   _Fibonacci_Feedback__ros_msg_type * ros_message = static_cast<_Fibonacci_Feedback__ros_msg_type *>(untyped_ros_message);
-  // Field name: secuancia_actual
+  // Field name: secuencia_actual
   {
     uint32_t cdrSize;
     cdr >> cdrSize;
@@ -511,14 +511,14 @@ static bool _Fibonacci_Feedback__cdr_deserialize(
       return false;
     }
 
-    if (ros_message->secuancia_actual.data) {
-      rosidl_runtime_c__int32__Sequence__fini(&ros_message->secuancia_actual);
+    if (ros_message->secuencia_actual.data) {
+      rosidl_runtime_c__int32__Sequence__fini(&ros_message->secuencia_actual);
     }
-    if (!rosidl_runtime_c__int32__Sequence__init(&ros_message->secuancia_actual, size)) {
-      fprintf(stderr, "failed to create array for field 'secuancia_actual'");
+    if (!rosidl_runtime_c__int32__Sequence__init(&ros_message->secuencia_actual, size)) {
+      fprintf(stderr, "failed to create array for field 'secuencia_actual'");
       return false;
     }
-    auto array_ptr = ros_message->secuancia_actual.data;
+    auto array_ptr = ros_message->secuencia_actual.data;
     cdr.deserializeArray(array_ptr, size);
   }
 
@@ -539,10 +539,10 @@ size_t get_serialized_size_interfaz__action__Fibonacci_Feedback(
   (void)padding;
   (void)wchar_size;
 
-  // field.name secuancia_actual
+  // field.name secuencia_actual
   {
-    size_t array_size = ros_message->secuancia_actual.size;
-    auto array_ptr = ros_message->secuancia_actual.data;
+    size_t array_size = ros_message->secuencia_actual.size;
+    auto array_ptr = ros_message->secuencia_actual.data;
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     (void)array_ptr;
@@ -579,7 +579,7 @@ size_t max_serialized_size_interfaz__action__Fibonacci_Feedback(
   full_bounded = true;
   is_plain = true;
 
-  // member: secuancia_actual
+  // member: secuencia_actual
   {
     size_t array_size = 0;
     full_bounded = false;
@@ -600,7 +600,7 @@ size_t max_serialized_size_interfaz__action__Fibonacci_Feedback(
     using DataType = interfaz__action__Fibonacci_Feedback;
     is_plain =
       (
-      offsetof(DataType, secuancia_actual) +
+      offsetof(DataType, secuencia_actual) +
       last_member_size
       ) == ret_val;
   }

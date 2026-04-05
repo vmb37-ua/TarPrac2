@@ -269,7 +269,7 @@ class Fibonacci_Result(metaclass=Metaclass_Fibonacci_Result):
 
 # Import statements for member types
 
-# Member 'secuancia_actual'
+# Member 'secuencia_actual'
 # already imported above
 # import array
 
@@ -325,11 +325,11 @@ class Fibonacci_Feedback(metaclass=Metaclass_Fibonacci_Feedback):
     """Message class 'Fibonacci_Feedback'."""
 
     __slots__ = [
-        '_secuancia_actual',
+        '_secuencia_actual',
     ]
 
     _fields_and_field_types = {
-        'secuancia_actual': 'sequence<int32>',
+        'secuencia_actual': 'sequence<int32>',
     }
 
     SLOT_TYPES = (
@@ -340,7 +340,7 @@ class Fibonacci_Feedback(metaclass=Metaclass_Fibonacci_Feedback):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.secuancia_actual = array.array('i', kwargs.get('secuancia_actual', []))
+        self.secuencia_actual = array.array('i', kwargs.get('secuencia_actual', []))
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -371,7 +371,7 @@ class Fibonacci_Feedback(metaclass=Metaclass_Fibonacci_Feedback):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.secuancia_actual != other.secuancia_actual:
+        if self.secuencia_actual != other.secuencia_actual:
             return False
         return True
 
@@ -381,16 +381,16 @@ class Fibonacci_Feedback(metaclass=Metaclass_Fibonacci_Feedback):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def secuancia_actual(self):
-        """Message field 'secuancia_actual'."""
-        return self._secuancia_actual
+    def secuencia_actual(self):
+        """Message field 'secuencia_actual'."""
+        return self._secuencia_actual
 
-    @secuancia_actual.setter
-    def secuancia_actual(self, value):
+    @secuencia_actual.setter
+    def secuencia_actual(self, value):
         if isinstance(value, array.array):
             assert value.typecode == 'i', \
-                "The 'secuancia_actual' array.array() must have the type code of 'i'"
-            self._secuancia_actual = value
+                "The 'secuencia_actual' array.array() must have the type code of 'i'"
+            self._secuencia_actual = value
             return
         if __debug__:
             from collections.abc import Sequence
@@ -405,8 +405,8 @@ class Fibonacci_Feedback(metaclass=Metaclass_Fibonacci_Feedback):
                  not isinstance(value, UserString) and
                  all(isinstance(v, int) for v in value) and
                  all(val >= -2147483648 and val < 2147483648 for val in value)), \
-                "The 'secuancia_actual' field must be a set or sequence and each value of type 'int' and each integer in [-2147483648, 2147483647]"
-        self._secuancia_actual = array.array('i', value)
+                "The 'secuencia_actual' field must be a set or sequence and each value of type 'int' and each integer in [-2147483648, 2147483647]"
+        self._secuencia_actual = array.array('i', value)
 
 
 # Import statements for member types

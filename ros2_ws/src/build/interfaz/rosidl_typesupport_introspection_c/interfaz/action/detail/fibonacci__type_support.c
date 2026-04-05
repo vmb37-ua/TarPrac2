@@ -248,7 +248,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 
 
 // Include directives for member types
-// Member `secuancia_actual`
+// Member `secuencia_actual`
 // already included above
 // #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
@@ -271,7 +271,7 @@ void interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__F
   interfaz__action__Fibonacci_Feedback__fini(message_memory);
 }
 
-size_t interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__size_function__Fibonacci_Feedback__secuancia_actual(
+size_t interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__size_function__Fibonacci_Feedback__secuencia_actual(
   const void * untyped_member)
 {
   const rosidl_runtime_c__int32__Sequence * member =
@@ -279,7 +279,7 @@ size_t interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c_
   return member->size;
 }
 
-const void * interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Feedback__secuancia_actual(
+const void * interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Feedback__secuencia_actual(
   const void * untyped_member, size_t index)
 {
   const rosidl_runtime_c__int32__Sequence * member =
@@ -287,7 +287,7 @@ const void * interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspect
   return &member->data[index];
 }
 
-void * interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_function__Fibonacci_Feedback__secuancia_actual(
+void * interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_function__Fibonacci_Feedback__secuencia_actual(
   void * untyped_member, size_t index)
 {
   rosidl_runtime_c__int32__Sequence * member =
@@ -295,29 +295,29 @@ void * interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c_
   return &member->data[index];
 }
 
-void interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__fetch_function__Fibonacci_Feedback__secuancia_actual(
+void interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__fetch_function__Fibonacci_Feedback__secuencia_actual(
   const void * untyped_member, size_t index, void * untyped_value)
 {
   const int32_t * item =
     ((const int32_t *)
-    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Feedback__secuancia_actual(untyped_member, index));
+    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Feedback__secuencia_actual(untyped_member, index));
   int32_t * value =
     (int32_t *)(untyped_value);
   *value = *item;
 }
 
-void interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__assign_function__Fibonacci_Feedback__secuancia_actual(
+void interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__assign_function__Fibonacci_Feedback__secuencia_actual(
   void * untyped_member, size_t index, const void * untyped_value)
 {
   int32_t * item =
     ((int32_t *)
-    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_function__Fibonacci_Feedback__secuancia_actual(untyped_member, index));
+    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_function__Fibonacci_Feedback__secuencia_actual(untyped_member, index));
   const int32_t * value =
     (const int32_t *)(untyped_value);
   *item = *value;
 }
 
-bool interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__resize_function__Fibonacci_Feedback__secuancia_actual(
+bool interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__resize_function__Fibonacci_Feedback__secuencia_actual(
   void * untyped_member, size_t size)
 {
   rosidl_runtime_c__int32__Sequence * member =
@@ -328,21 +328,21 @@ bool interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__r
 
 static rosidl_typesupport_introspection_c__MessageMember interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__Fibonacci_Feedback_message_member_array[1] = {
   {
-    "secuancia_actual",  // name
+    "secuencia_actual",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     true,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(interfaz__action__Fibonacci_Feedback, secuancia_actual),  // bytes offset in struct
+    offsetof(interfaz__action__Fibonacci_Feedback, secuencia_actual),  // bytes offset in struct
     NULL,  // default value
-    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__size_function__Fibonacci_Feedback__secuancia_actual,  // size() function pointer
-    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Feedback__secuancia_actual,  // get_const(index) function pointer
-    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_function__Fibonacci_Feedback__secuancia_actual,  // get(index) function pointer
-    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__fetch_function__Fibonacci_Feedback__secuancia_actual,  // fetch(index, &value) function pointer
-    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__assign_function__Fibonacci_Feedback__secuancia_actual,  // assign(index, value) function pointer
-    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__resize_function__Fibonacci_Feedback__secuancia_actual  // resize(index) function pointer
+    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__size_function__Fibonacci_Feedback__secuencia_actual,  // size() function pointer
+    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Feedback__secuencia_actual,  // get_const(index) function pointer
+    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_function__Fibonacci_Feedback__secuencia_actual,  // get(index) function pointer
+    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__fetch_function__Fibonacci_Feedback__secuencia_actual,  // fetch(index, &value) function pointer
+    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__assign_function__Fibonacci_Feedback__secuencia_actual,  // assign(index, value) function pointer
+    interfaz__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__resize_function__Fibonacci_Feedback__secuencia_actual  // resize(index) function pointer
   }
 };
 

@@ -266,15 +266,15 @@ struct Fibonacci_Feedback_
   }
 
   // field types and members
-  using _secuancia_actual_type =
+  using _secuencia_actual_type =
     std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>>;
-  _secuancia_actual_type secuancia_actual;
+  _secuencia_actual_type secuencia_actual;
 
   // setters for named parameter idiom
-  Type & set__secuancia_actual(
+  Type & set__secuencia_actual(
     const std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>> & _arg)
   {
-    this->secuancia_actual = _arg;
+    this->secuencia_actual = _arg;
     return *this;
   }
 
@@ -320,7 +320,7 @@ struct Fibonacci_Feedback_
   // comparison operators
   bool operator==(const Fibonacci_Feedback_ & other) const
   {
-    if (this->secuancia_actual != other.secuancia_actual) {
+    if (this->secuencia_actual != other.secuencia_actual) {
       return false;
     }
     return true;

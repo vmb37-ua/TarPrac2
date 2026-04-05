@@ -72,11 +72,18 @@ interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/_interfaz_s.e
 interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/msg/_mi_mensaje.py
 interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/msg/_p2pkg_mensaje.py
 interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/action/_fibonacci.py
+interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/action/_ej_fibonacci.py
+interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/srv/_convert_temp.py
+interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/action/_battery.py
 interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/msg/__init__.py
 interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/action/__init__.py
+interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/srv/__init__.py
 interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/msg/_mi_mensaje_s.c
 interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/msg/_p2pkg_mensaje_s.c
 interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/action/_fibonacci_s.c
+interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/action/_ej_fibonacci_s.c
+interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/srv/_convert_temp_s.c
+interfaz__py/CMakeFiles/interfaz__py: rosidl_generator_py/interfaz/action/_battery_s.c
 
 rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -94,6 +101,9 @@ rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c: /op
 rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaz/msg/MiMensaje.idl
 rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaz/msg/P2pkgMensaje.idl
 rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaz/action/Fibonacci.idl
+rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaz/action/EjFibonacci.idl
+rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaz/srv/ConvertTemp.idl
+rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaz/action/Battery.idl
 rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -181,11 +191,23 @@ rosidl_generator_py/interfaz/msg/_p2pkg_mensaje.py: rosidl_generator_py/interfaz
 rosidl_generator_py/interfaz/action/_fibonacci.py: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaz/action/_fibonacci.py
 
+rosidl_generator_py/interfaz/action/_ej_fibonacci.py: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaz/action/_ej_fibonacci.py
+
+rosidl_generator_py/interfaz/srv/_convert_temp.py: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaz/srv/_convert_temp.py
+
+rosidl_generator_py/interfaz/action/_battery.py: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaz/action/_battery.py
+
 rosidl_generator_py/interfaz/msg/__init__.py: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaz/msg/__init__.py
 
 rosidl_generator_py/interfaz/action/__init__.py: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaz/action/__init__.py
+
+rosidl_generator_py/interfaz/srv/__init__.py: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaz/srv/__init__.py
 
 rosidl_generator_py/interfaz/msg/_mi_mensaje_s.c: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaz/msg/_mi_mensaje_s.c
@@ -196,11 +218,24 @@ rosidl_generator_py/interfaz/msg/_p2pkg_mensaje_s.c: rosidl_generator_py/interfa
 rosidl_generator_py/interfaz/action/_fibonacci_s.c: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaz/action/_fibonacci_s.c
 
+rosidl_generator_py/interfaz/action/_ej_fibonacci_s.c: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaz/action/_ej_fibonacci_s.c
+
+rosidl_generator_py/interfaz/srv/_convert_temp_s.c: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaz/srv/_convert_temp_s.c
+
+rosidl_generator_py/interfaz/action/_battery_s.c: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaz/action/_battery_s.c
+
 interfaz__py: interfaz__py/CMakeFiles/interfaz__py
 interfaz__py: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_c.c
 interfaz__py: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c
 interfaz__py: rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_introspection_c.c
 interfaz__py: rosidl_generator_py/interfaz/action/__init__.py
+interfaz__py: rosidl_generator_py/interfaz/action/_battery.py
+interfaz__py: rosidl_generator_py/interfaz/action/_battery_s.c
+interfaz__py: rosidl_generator_py/interfaz/action/_ej_fibonacci.py
+interfaz__py: rosidl_generator_py/interfaz/action/_ej_fibonacci_s.c
 interfaz__py: rosidl_generator_py/interfaz/action/_fibonacci.py
 interfaz__py: rosidl_generator_py/interfaz/action/_fibonacci_s.c
 interfaz__py: rosidl_generator_py/interfaz/msg/__init__.py
@@ -208,6 +243,9 @@ interfaz__py: rosidl_generator_py/interfaz/msg/_mi_mensaje.py
 interfaz__py: rosidl_generator_py/interfaz/msg/_mi_mensaje_s.c
 interfaz__py: rosidl_generator_py/interfaz/msg/_p2pkg_mensaje.py
 interfaz__py: rosidl_generator_py/interfaz/msg/_p2pkg_mensaje_s.c
+interfaz__py: rosidl_generator_py/interfaz/srv/__init__.py
+interfaz__py: rosidl_generator_py/interfaz/srv/_convert_temp.py
+interfaz__py: rosidl_generator_py/interfaz/srv/_convert_temp_s.c
 interfaz__py: interfaz__py/CMakeFiles/interfaz__py.dir/build.make
 .PHONY : interfaz__py
 

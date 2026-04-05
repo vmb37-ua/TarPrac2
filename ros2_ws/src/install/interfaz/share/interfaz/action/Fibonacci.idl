@@ -12,7 +12,7 @@ module interfaz {
       sequence<int32> secuencia_final;
     };
     struct Fibonacci_Feedback {
-      sequence<int32> secuancia_actual;
+      sequence<int32> secuencia_actual;
     };
   };
 };

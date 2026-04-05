@@ -477,7 +477,7 @@ interfaz__action__Fibonacci_Result__Sequence__copy(
 
 
 // Include directives for member types
-// Member `secuancia_actual`
+// Member `secuencia_actual`
 // already included above
 // #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
@@ -487,8 +487,8 @@ interfaz__action__Fibonacci_Feedback__init(interfaz__action__Fibonacci_Feedback 
   if (!msg) {
     return false;
   }
-  // secuancia_actual
-  if (!rosidl_runtime_c__int32__Sequence__init(&msg->secuancia_actual, 0)) {
+  // secuencia_actual
+  if (!rosidl_runtime_c__int32__Sequence__init(&msg->secuencia_actual, 0)) {
     interfaz__action__Fibonacci_Feedback__fini(msg);
     return false;
   }
@@ -501,8 +501,8 @@ interfaz__action__Fibonacci_Feedback__fini(interfaz__action__Fibonacci_Feedback 
   if (!msg) {
     return;
   }
-  // secuancia_actual
-  rosidl_runtime_c__int32__Sequence__fini(&msg->secuancia_actual);
+  // secuencia_actual
+  rosidl_runtime_c__int32__Sequence__fini(&msg->secuencia_actual);
 }
 
 bool
@@ -511,9 +511,9 @@ interfaz__action__Fibonacci_Feedback__are_equal(const interfaz__action__Fibonacc
   if (!lhs || !rhs) {
     return false;
   }
-  // secuancia_actual
+  // secuencia_actual
   if (!rosidl_runtime_c__int32__Sequence__are_equal(
-      &(lhs->secuancia_actual), &(rhs->secuancia_actual)))
+      &(lhs->secuencia_actual), &(rhs->secuencia_actual)))
   {
     return false;
   }
@@ -528,9 +528,9 @@ interfaz__action__Fibonacci_Feedback__copy(
   if (!input || !output) {
     return false;
   }
-  // secuancia_actual
+  // secuencia_actual
   if (!rosidl_runtime_c__int32__Sequence__copy(
-      &(input->secuancia_actual), &(output->secuancia_actual)))
+      &(input->secuencia_actual), &(output->secuencia_actual)))
   {
     return false;
   }

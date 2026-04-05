@@ -535,10 +535,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
   "rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
   "/workspace/ros2_ws/src/interfaz/CMakeLists.txt"
+  "/workspace/ros2_ws/src/interfaz/action/Battery.action"
+  "/workspace/ros2_ws/src/interfaz/action/EjFibonacci.action"
   "/workspace/ros2_ws/src/interfaz/action/Fibonacci.action"
   "/workspace/ros2_ws/src/interfaz/msg/MiMensaje.msg"
   "/workspace/ros2_ws/src/interfaz/msg/P2pkgMensaje.msg"
   "/workspace/ros2_ws/src/interfaz/package.xml"
+  "/workspace/ros2_ws/src/interfaz/srv/ConvertTemp.srv"
   )
 
 # The corresponding makefile is:
@@ -557,6 +560,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ament_cmake_core/stamps/MiMensaje.msg.stamp"
   "ament_cmake_core/stamps/P2pkgMensaje.msg.stamp"
   "ament_cmake_core/stamps/Fibonacci.action.stamp"
+  "ament_cmake_core/stamps/EjFibonacci.action.stamp"
+  "ament_cmake_core/stamps/ConvertTemp.srv.stamp"
+  "ament_cmake_core/stamps/Battery.action.stamp"
   "rosidl_generator_c/interfaz/msg/rosidl_generator_c__visibility_control.h"
   "ament_cmake_core/stamps/library_path.sh.stamp"
   "rosidl_typesupport_fastrtps_c/interfaz/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"

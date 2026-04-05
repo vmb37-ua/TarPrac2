@@ -69,6 +69,11 @@ include CMakeFiles/interfaz.dir/progress.make
 CMakeFiles/interfaz: /workspace/ros2_ws/src/interfaz/msg/MiMensaje.msg
 CMakeFiles/interfaz: /workspace/ros2_ws/src/interfaz/msg/P2pkgMensaje.msg
 CMakeFiles/interfaz: /workspace/ros2_ws/src/interfaz/action/Fibonacci.action
+CMakeFiles/interfaz: /workspace/ros2_ws/src/interfaz/action/EjFibonacci.action
+CMakeFiles/interfaz: /workspace/ros2_ws/src/interfaz/srv/ConvertTemp.srv
+CMakeFiles/interfaz: rosidl_cmake/srv/ConvertTemp_Request.msg
+CMakeFiles/interfaz: rosidl_cmake/srv/ConvertTemp_Response.msg
+CMakeFiles/interfaz: /workspace/ros2_ws/src/interfaz/action/Battery.action
 CMakeFiles/interfaz: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/interfaz: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/interfaz: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl

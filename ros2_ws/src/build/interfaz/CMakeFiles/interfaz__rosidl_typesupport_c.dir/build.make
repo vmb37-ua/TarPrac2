@@ -78,6 +78,9 @@ rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp: /opt/ros/humble/
 rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp: rosidl_adapter/interfaz/msg/MiMensaje.idl
 rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp: rosidl_adapter/interfaz/msg/P2pkgMensaje.idl
 rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp: rosidl_adapter/interfaz/action/Fibonacci.idl
+rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp: rosidl_adapter/interfaz/action/EjFibonacci.idl
+rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp: rosidl_adapter/interfaz/srv/ConvertTemp.idl
+rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp: rosidl_adapter/interfaz/action/Battery.idl
 rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -156,6 +159,15 @@ rosidl_typesupport_c/interfaz/msg/p2pkg_mensaje__type_support.cpp: rosidl_typesu
 rosidl_typesupport_c/interfaz/action/fibonacci__type_support.cpp: rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/interfaz/action/fibonacci__type_support.cpp
 
+rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp: rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp
+
+rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp: rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp
+
+rosidl_typesupport_c/interfaz/action/battery__type_support.cpp: rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/interfaz/action/battery__type_support.cpp
+
 CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp.o: CMakeFiles/interfaz__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp.o: rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp
 CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp.o: CMakeFiles/interfaz__rosidl_typesupport_c.dir/compiler_depend.ts
@@ -198,11 +210,56 @@ CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/acti
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/fibonacci__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/ros2_ws/src/build/interfaz/rosidl_typesupport_c/interfaz/action/fibonacci__type_support.cpp -o CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/fibonacci__type_support.cpp.s
 
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.o: CMakeFiles/interfaz__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.o: rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.o: CMakeFiles/interfaz__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/ros2_ws/src/build/interfaz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.o -MF CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.o.d -o CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.o -c /workspace/ros2_ws/src/build/interfaz/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp
+
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/ros2_ws/src/build/interfaz/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp > CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.i
+
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/ros2_ws/src/build/interfaz/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp -o CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.s
+
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.o: CMakeFiles/interfaz__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.o: rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.o: CMakeFiles/interfaz__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/ros2_ws/src/build/interfaz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.o -MF CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.o.d -o CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.o -c /workspace/ros2_ws/src/build/interfaz/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp
+
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/ros2_ws/src/build/interfaz/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp > CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.i
+
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/ros2_ws/src/build/interfaz/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp -o CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.s
+
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.o: CMakeFiles/interfaz__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.o: rosidl_typesupport_c/interfaz/action/battery__type_support.cpp
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.o: CMakeFiles/interfaz__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/ros2_ws/src/build/interfaz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.o -MF CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.o.d -o CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.o -c /workspace/ros2_ws/src/build/interfaz/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp
+
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/ros2_ws/src/build/interfaz/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp > CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.i
+
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/ros2_ws/src/build/interfaz/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp -o CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.s
+
 # Object files for target interfaz__rosidl_typesupport_c
 interfaz__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp.o" \
 "CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/msg/p2pkg_mensaje__type_support.cpp.o" \
-"CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/fibonacci__type_support.cpp.o"
+"CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/fibonacci__type_support.cpp.o" \
+"CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.o" \
+"CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.o" \
+"CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.o"
 
 # External object files for target interfaz__rosidl_typesupport_c
 interfaz__rosidl_typesupport_c_EXTERNAL_OBJECTS =
@@ -210,6 +267,9 @@ interfaz__rosidl_typesupport_c_EXTERNAL_OBJECTS =
 libinterfaz__rosidl_typesupport_c.so: CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp.o
 libinterfaz__rosidl_typesupport_c.so: CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/msg/p2pkg_mensaje__type_support.cpp.o
 libinterfaz__rosidl_typesupport_c.so: CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/fibonacci__type_support.cpp.o
+libinterfaz__rosidl_typesupport_c.so: CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.o
+libinterfaz__rosidl_typesupport_c.so: CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.o
+libinterfaz__rosidl_typesupport_c.so: CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/battery__type_support.cpp.o
 libinterfaz__rosidl_typesupport_c.so: CMakeFiles/interfaz__rosidl_typesupport_c.dir/build.make
 libinterfaz__rosidl_typesupport_c.so: libinterfaz__rosidl_generator_c.so
 libinterfaz__rosidl_typesupport_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
@@ -226,7 +286,7 @@ libinterfaz__rosidl_typesupport_c.so: /opt/ros/humble/lib/libunique_identifier_m
 libinterfaz__rosidl_typesupport_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libinterfaz__rosidl_typesupport_c.so: /opt/ros/humble/lib/librcutils.so
 libinterfaz__rosidl_typesupport_c.so: CMakeFiles/interfaz__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/ros2_ws/src/build/interfaz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libinterfaz__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/ros2_ws/src/build/interfaz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libinterfaz__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interfaz__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -237,9 +297,12 @@ CMakeFiles/interfaz__rosidl_typesupport_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/interfaz__rosidl_typesupport_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/interfaz__rosidl_typesupport_c.dir/clean
 
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/interfaz/action/battery__type_support.cpp
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp
 CMakeFiles/interfaz__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/interfaz/action/fibonacci__type_support.cpp
 CMakeFiles/interfaz__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp
 CMakeFiles/interfaz__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/interfaz/msg/p2pkg_mensaje__type_support.cpp
+CMakeFiles/interfaz__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp
 	cd /workspace/ros2_ws/src/build/interfaz && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/ros2_ws/src/interfaz /workspace/ros2_ws/src/interfaz /workspace/ros2_ws/src/build/interfaz /workspace/ros2_ws/src/build/interfaz /workspace/ros2_ws/src/build/interfaz/CMakeFiles/interfaz__rosidl_typesupport_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/interfaz__rosidl_typesupport_c.dir/depend
 

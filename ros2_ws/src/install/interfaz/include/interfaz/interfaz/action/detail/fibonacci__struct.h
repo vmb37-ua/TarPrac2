@@ -60,14 +60,14 @@ typedef struct interfaz__action__Fibonacci_Result__Sequence
 // Constants defined in the message
 
 // Include directives for member types
-// Member 'secuancia_actual'
+// Member 'secuencia_actual'
 // already included above
 // #include "rosidl_runtime_c/primitives_sequence.h"
 
 /// Struct defined in action/Fibonacci in the package interfaz.
 typedef struct interfaz__action__Fibonacci_Feedback
 {
-  rosidl_runtime_c__int32__Sequence secuancia_actual;
+  rosidl_runtime_c__int32__Sequence secuencia_actual;
 } interfaz__action__Fibonacci_Feedback;
 
 // Struct for a sequence of interfaz__action__Fibonacci_Feedback.

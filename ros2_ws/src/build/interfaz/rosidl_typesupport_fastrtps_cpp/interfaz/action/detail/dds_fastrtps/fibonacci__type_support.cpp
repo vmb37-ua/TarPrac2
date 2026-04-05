@@ -468,9 +468,9 @@ cdr_serialize(
   const interfaz::action::Fibonacci_Feedback & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: secuancia_actual
+  // Member: secuencia_actual
   {
-    cdr << ros_message.secuancia_actual;
+    cdr << ros_message.secuencia_actual;
   }
   return true;
 }
@@ -481,9 +481,9 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   interfaz::action::Fibonacci_Feedback & ros_message)
 {
-  // Member: secuancia_actual
+  // Member: secuencia_actual
   {
-    cdr >> ros_message.secuancia_actual;
+    cdr >> ros_message.secuencia_actual;
   }
 
   return true;
@@ -502,13 +502,13 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: secuancia_actual
+  // Member: secuencia_actual
   {
-    size_t array_size = ros_message.secuancia_actual.size();
+    size_t array_size = ros_message.secuencia_actual.size();
 
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    size_t item_size = sizeof(ros_message.secuancia_actual[0]);
+    size_t item_size = sizeof(ros_message.secuencia_actual[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -536,7 +536,7 @@ max_serialized_size_Fibonacci_Feedback(
   is_plain = true;
 
 
-  // Member: secuancia_actual
+  // Member: secuencia_actual
   {
     size_t array_size = 0;
     full_bounded = false;
@@ -557,7 +557,7 @@ max_serialized_size_Fibonacci_Feedback(
     using DataType = interfaz::action::Fibonacci_Feedback;
     is_plain =
       (
-      offsetof(DataType, secuancia_actual) +
+      offsetof(DataType, secuencia_actual) +
       last_member_size
       ) == ret_val;
   }

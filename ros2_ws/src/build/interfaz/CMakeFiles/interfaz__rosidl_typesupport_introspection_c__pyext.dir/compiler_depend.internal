@@ -255,4 +255,9 @@ CMakeFiles/interfaz__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
  /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/msg/detail/p2pkg_mensaje__functions.h
+ /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/fibonacci__type_support.h
+ /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/fibonacci__struct.h
+ /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+ /workspace/ros2_ws/src/build/interfaz/rosidl_generator_c/interfaz/action/detail/fibonacci__functions.h
 
