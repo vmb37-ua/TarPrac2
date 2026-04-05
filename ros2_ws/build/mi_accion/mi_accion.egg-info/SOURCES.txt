@@ -1,4 +1,3 @@
-LICENSE
 package.xml
 setup.cfg
 setup.py
@@ -16,7 +15,11 @@ mi_accion/ejercicios_fibClient.py
 mi_accion/ejercicios_fibServer.py
 mi_accion/fibonacci_action_client.py
 mi_accion/fibonacci_action_server.py
+mi_accion.egg-info/PKG-INFO
+mi_accion.egg-info/SOURCES.txt
+mi_accion.egg-info/dependency_links.txt
+mi_accion.egg-info/entry_points.txt
+mi_accion.egg-info/requires.txt
+mi_accion.egg-info/top_level.txt
+mi_accion.egg-info/zip-safe
 resource/mi_accion
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

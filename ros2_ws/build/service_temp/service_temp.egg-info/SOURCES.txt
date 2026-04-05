@@ -1,4 +1,3 @@
-LICENSE
 package.xml
 setup.cfg
 setup.py
@@ -13,6 +12,10 @@ resource/service_temp
 service_temp/__init__.py
 service_temp/temp_client.py
 service_temp/temp_server.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+service_temp.egg-info/PKG-INFO
+service_temp.egg-info/SOURCES.txt
+service_temp.egg-info/dependency_links.txt
+service_temp.egg-info/entry_points.txt
+service_temp.egg-info/requires.txt
+service_temp.egg-info/top_level.txt
+service_temp.egg-info/zip-safe

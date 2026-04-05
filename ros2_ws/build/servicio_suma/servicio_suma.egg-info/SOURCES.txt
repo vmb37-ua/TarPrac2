@@ -1,4 +1,3 @@
-LICENSE
 package.xml
 setup.cfg
 setup.py
@@ -13,6 +12,10 @@ resource/servicio_suma
 servicio_suma/__init__.py
 servicio_suma/add_two_ints_client.py
 servicio_suma/add_two_ints_server.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+servicio_suma.egg-info/PKG-INFO
+servicio_suma.egg-info/SOURCES.txt
+servicio_suma.egg-info/dependency_links.txt
+servicio_suma.egg-info/entry_points.txt
+servicio_suma.egg-info/requires.txt
+servicio_suma.egg-info/top_level.txt
+servicio_suma.egg-info/zip-safe

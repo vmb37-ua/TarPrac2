@@ -1,4 +1,0 @@
-[console_scripts]
-client = battery_act.battery_client:main
-server = battery_act.battery_charger:main
-

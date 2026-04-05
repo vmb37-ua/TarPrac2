@@ -1,4 +1,3 @@
-LICENSE
 package.xml
 setup.cfg
 setup.py
@@ -12,7 +11,11 @@ setup.py
 battery_act/__init__.py
 battery_act/battery_charger.py
 battery_act/battery_client.py
+battery_act.egg-info/PKG-INFO
+battery_act.egg-info/SOURCES.txt
+battery_act.egg-info/dependency_links.txt
+battery_act.egg-info/entry_points.txt
+battery_act.egg-info/requires.txt
+battery_act.egg-info/top_level.txt
+battery_act.egg-info/zip-safe
 resource/battery_act
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
