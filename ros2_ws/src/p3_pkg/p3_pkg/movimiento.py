@@ -73,12 +73,12 @@ class Movimiento(Node):
 
     def lineal(self, distancia):
         Kp_lin = 1.0        
-        Kp_ang = 2.5        # Aumentamos un poco el "tirón" proporcional
-        Ki_ang = 0.2        # Nueva Ganancia Integral para micro-errores
+        Kp_ang = 2.5        
+        Ki_ang = 0.2        
         
-        tolerancia_dist = 0.01  # Bajamos la tolerancia a 1 cm
+        tolerancia_dist = 0.01  
         v_max = 0.2         
-        v_min = 0.05        # Velocidad mínima para evitar arrastre al final
+        v_min = 0.05        
 
         rclpy.spin_once(self, timeout_sec=0.05)
         x_inicial = self.x
