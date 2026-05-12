@@ -1,2 +1,0 @@
-float64 input_temp
-string conversion_type

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+config/waypoints.yaml
+resource/voice_bot_pkg
+voice_bot_pkg/__init__.py
+voice_bot_pkg/robot_executor_node.py
+voice_bot_pkg/voice_listener_node.py
+voice_bot_pkg.egg-info/PKG-INFO
+voice_bot_pkg.egg-info/SOURCES.txt
+voice_bot_pkg.egg-info/dependency_links.txt
+voice_bot_pkg.egg-info/entry_points.txt
+voice_bot_pkg.egg-info/requires.txt
+voice_bot_pkg.egg-info/top_level.txt
+voice_bot_pkg.egg-info/zip-safe

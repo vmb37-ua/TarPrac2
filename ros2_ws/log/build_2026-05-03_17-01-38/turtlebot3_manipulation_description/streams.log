@@ -1,0 +1,62 @@
+[0.044s] Invoking command in '/workspace/ros2_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/turtlebot3_manipulation_description
+[0.129s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.221s] -- Detecting C compiler ABI info
+[0.321s] -- Detecting C compiler ABI info - done
+[0.334s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.334s] -- Detecting C compile features
+[0.335s] -- Detecting C compile features - done
+[0.339s] -- Detecting CXX compiler ABI info
+[0.501s] -- Detecting CXX compiler ABI info - done
+[0.512s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.512s] -- Detecting CXX compile features
+[0.515s] -- Detecting CXX compile features - done
+[0.522s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.893s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.004s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.203s] -- Configuring done
+[1.206s] -- Generating done
+[1.208s] -- Build files have been written to: /workspace/ros2_ws/build/turtlebot3_manipulation_description
+[1.228s] Invoked command in '/workspace/ros2_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/turtlebot3_manipulation_description
+[1.230s] Invoking command in '/workspace/ros2_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/turtlebot3_manipulation_description -- -j12 -l12
+[1.487s] Invoked command in '/workspace/ros2_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/turtlebot3_manipulation_description -- -j12 -l12
+[1.490s] Invoking command in '/workspace/ros2_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/turtlebot3_manipulation_description
+[1.965s] -- Install configuration: ""
+[1.965s] -- Execute custom install script
+[1.965s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/launch/model.launch.py
+[1.965s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/rviz/model.rviz
+[1.966s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/open_manipulator_x.urdf.xacro
+[1.966s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_manipulation.urdf.xacro
+[1.966s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_waffle_pi.urdf.xacro
+[1.966s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/materials.xacro
+[1.966s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/open_manipulator_x.gazebo.xacro
+[1.967s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/turtlebot3_waffle_pi.gazebo.xacro
+[1.967s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_left_palm.stl
+[1.967s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_right_palm.stl
+[1.967s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link1.stl
+[1.967s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link2.stl
+[1.967s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link3.stl
+[1.967s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link4.stl
+[1.967s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link5.stl
+[1.968s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/base.stl
+[1.968s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/ladar.stl
+[1.968s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/left_tire.stl
+[1.968s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/right_tire.stl
+[1.968s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/ros2_control/turtlebot3_manipulation_system.ros2_control.xacro
+[1.968s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/turtlebot3_manipulation_description.dsv
+[1.969s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_description
+[1.969s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_description
+[1.969s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.sh
+[1.969s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.dsv
+[1.969s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.sh
+[1.969s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.dsv
+[1.969s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.bash
+[1.969s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.sh
+[1.969s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.zsh
+[1.969s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.dsv
+[1.970s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.dsv
+[1.970s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/packages/turtlebot3_manipulation_description
+[1.970s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig.cmake
+[1.970s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig-version.cmake
+[1.970s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.xml
+[2.432s] Invoked command in '/workspace/ros2_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/turtlebot3_manipulation_description

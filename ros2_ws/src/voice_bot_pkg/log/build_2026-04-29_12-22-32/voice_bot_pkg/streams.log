@@ -1,0 +1,27 @@
+[0.397s] Invoking command in '/workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg': PYTHONPATH=/workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg/build --no-deps symlink_data
+[0.567s] running develop
+[0.656s] running egg_info
+[0.656s] creating voice_bot_pkg.egg-info
+[0.656s] writing voice_bot_pkg.egg-info/PKG-INFO
+[0.656s] writing dependency_links to voice_bot_pkg.egg-info/dependency_links.txt
+[0.656s] writing entry points to voice_bot_pkg.egg-info/entry_points.txt
+[0.656s] writing requirements to voice_bot_pkg.egg-info/requires.txt
+[0.656s] writing top-level names to voice_bot_pkg.egg-info/top_level.txt
+[0.657s] writing manifest file 'voice_bot_pkg.egg-info/SOURCES.txt'
+[0.658s] reading manifest file 'voice_bot_pkg.egg-info/SOURCES.txt'
+[0.658s] writing manifest file 'voice_bot_pkg.egg-info/SOURCES.txt'
+[0.659s] running build_ext
+[0.659s] Creating /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/lib/python3.10/site-packages/voice-bot-pkg.egg-link (link to .)
+[0.660s] Installing executor script to /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/lib/voice_bot_pkg
+[0.660s] Installing fake_mic script to /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/lib/voice_bot_pkg
+[0.660s] 
+[0.660s] Installed /workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg
+[0.660s] running symlink_data
+[0.660s] creating /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/ament_index
+[0.660s] creating /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/ament_index/resource_index
+[0.661s] creating /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/ament_index/resource_index/packages
+[0.661s] symbolically linking /workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg/resource/voice_bot_pkg -> /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/ament_index/resource_index/packages
+[0.661s] symbolically linking /workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg/package.xml -> /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/voice_bot_pkg
+[0.661s] creating /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/voice_bot_pkg/config
+[0.661s] symbolically linking /workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg/config/waypoints.yaml -> /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/voice_bot_pkg/config
+[0.677s] Invoked command in '/workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg' returned '0': PYTHONPATH=/workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg/build --no-deps symlink_data

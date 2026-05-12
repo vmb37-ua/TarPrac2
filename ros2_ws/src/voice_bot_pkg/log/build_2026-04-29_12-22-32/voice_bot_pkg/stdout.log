@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating voice_bot_pkg.egg-info
+writing voice_bot_pkg.egg-info/PKG-INFO
+writing dependency_links to voice_bot_pkg.egg-info/dependency_links.txt
+writing entry points to voice_bot_pkg.egg-info/entry_points.txt
+writing requirements to voice_bot_pkg.egg-info/requires.txt
+writing top-level names to voice_bot_pkg.egg-info/top_level.txt
+writing manifest file 'voice_bot_pkg.egg-info/SOURCES.txt'
+reading manifest file 'voice_bot_pkg.egg-info/SOURCES.txt'
+writing manifest file 'voice_bot_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/lib/python3.10/site-packages/voice-bot-pkg.egg-link (link to .)
+Installing executor script to /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/lib/voice_bot_pkg
+Installing fake_mic script to /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/lib/voice_bot_pkg
+
+Installed /workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg
+running symlink_data
+creating /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/ament_index
+creating /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/ament_index/resource_index
+creating /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/ament_index/resource_index/packages
+symbolically linking /workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg/resource/voice_bot_pkg -> /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/ament_index/resource_index/packages
+symbolically linking /workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg/package.xml -> /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/voice_bot_pkg
+creating /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/voice_bot_pkg/config
+symbolically linking /workspace/ros2_ws/src/voice_bot_pkg/build/voice_bot_pkg/config/waypoints.yaml -> /workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg/share/voice_bot_pkg/config

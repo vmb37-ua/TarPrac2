@@ -1,0 +1,75 @@
+[0.417s] Invoking command in '/workspace/ros2_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/turtlebot3:/workspace/ros2_ws/install/turtlebot3_simulations:/workspace/ros2_ws/install/turtlebot3_bringup:/workspace/ros2_ws/install/turtlebot3_node:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_fake_node:/workspace/ros2_ws/install/turtlebot3_manipulation_gazebo:/workspace/ros2_ws/install/turtlebot3_gazebo:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/turtlebot3_fake_node
+[0.499s] -- The C compiler identification is GNU 11.4.0
+[0.582s] -- The CXX compiler identification is GNU 11.4.0
+[0.594s] -- Detecting C compiler ABI info
+[0.703s] -- Detecting C compiler ABI info - done
+[0.716s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.716s] -- Detecting C compile features
+[0.717s] -- Detecting C compile features - done
+[0.723s] -- Detecting CXX compiler ABI info
+[0.858s] -- Detecting CXX compiler ABI info - done
+[0.873s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.874s] -- Detecting CXX compile features
+[0.875s] -- Detecting CXX compile features - done
+[0.887s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.231s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.324s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.411s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.489s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.501s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.517s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.621s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.648s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.724s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.730s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.862s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.923s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.001s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.024s] -- Looking for pthread.h
+[2.109s] -- Looking for pthread.h - found
+[2.109s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.181s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.183s] -- Found Threads: TRUE  
+[2.258s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.283s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[2.317s] -- Found tf2_msgs: 0.25.18 (/opt/ros/humble/share/tf2_msgs/cmake)
+[2.405s] -- Found turtlebot3_msgs: 2.4.0 (/workspace/ros2_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[2.606s] -- Configuring done
+[2.623s] -- Generating done
+[2.628s] -- Build files have been written to: /workspace/ros2_ws/build/turtlebot3_fake_node
+[2.775s] Invoked command in '/workspace/ros2_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/turtlebot3:/workspace/ros2_ws/install/turtlebot3_simulations:/workspace/ros2_ws/install/turtlebot3_bringup:/workspace/ros2_ws/install/turtlebot3_node:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_fake_node:/workspace/ros2_ws/install/turtlebot3_manipulation_gazebo:/workspace/ros2_ws/install/turtlebot3_gazebo:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/turtlebot3_fake_node
+[2.777s] Invoking command in '/workspace/ros2_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/turtlebot3:/workspace/ros2_ws/install/turtlebot3_simulations:/workspace/ros2_ws/install/turtlebot3_bringup:/workspace/ros2_ws/install/turtlebot3_node:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_fake_node:/workspace/ros2_ws/install/turtlebot3_manipulation_gazebo:/workspace/ros2_ws/install/turtlebot3_gazebo:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/turtlebot3_fake_node -- -j12 -l12
+[2.854s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[17.921s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[18.491s] [100%] Built target turtlebot3_fake_node
+[18.501s] Invoked command in '/workspace/ros2_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/turtlebot3:/workspace/ros2_ws/install/turtlebot3_simulations:/workspace/ros2_ws/install/turtlebot3_bringup:/workspace/ros2_ws/install/turtlebot3_node:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_fake_node:/workspace/ros2_ws/install/turtlebot3_manipulation_gazebo:/workspace/ros2_ws/install/turtlebot3_gazebo:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/turtlebot3_fake_node -- -j12 -l12
+[18.503s] Invoking command in '/workspace/ros2_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/turtlebot3:/workspace/ros2_ws/install/turtlebot3_simulations:/workspace/ros2_ws/install/turtlebot3_bringup:/workspace/ros2_ws/install/turtlebot3_node:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_fake_node:/workspace/ros2_ws/install/turtlebot3_manipulation_gazebo:/workspace/ros2_ws/install/turtlebot3_gazebo:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/turtlebot3_fake_node
+[18.510s] -- Install configuration: ""
+[18.511s] -- Execute custom install script
+[18.511s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[18.523s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[18.532s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[18.542s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[18.553s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[18.563s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[18.573s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[18.582s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[18.591s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[18.601s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[18.611s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[18.620s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[18.629s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[18.639s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[18.649s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[18.657s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[18.667s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[18.677s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[18.689s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[18.697s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.707s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.718s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[18.728s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[18.740s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[18.753s] Invoked command in '/workspace/ros2_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/turtlebot3:/workspace/ros2_ws/install/turtlebot3_simulations:/workspace/ros2_ws/install/turtlebot3_bringup:/workspace/ros2_ws/install/turtlebot3_node:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_fake_node:/workspace/ros2_ws/install/turtlebot3_manipulation_gazebo:/workspace/ros2_ws/install/turtlebot3_gazebo:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/workspace/install/interfaz_servicio_suma:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/turtlebot3_fake_node

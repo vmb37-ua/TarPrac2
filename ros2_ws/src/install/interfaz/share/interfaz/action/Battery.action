@@ -1,5 +1,0 @@
-int32 target_percentage
----
-string warning
----
-int32 current_percentage

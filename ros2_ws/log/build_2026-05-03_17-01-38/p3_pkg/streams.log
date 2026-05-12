@@ -1,0 +1,34 @@
+[2.643s] Invoking command in '/workspace/ros2_ws/build/p3_pkg': PYTHONPATH=/workspace/ros2_ws/build/p3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/p3_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/p3_pkg/build --no-deps symlink_data
+[3.777s] running develop
+[4.304s] running egg_info
+[4.304s] creating p3_pkg.egg-info
+[4.304s] writing p3_pkg.egg-info/PKG-INFO
+[4.304s] writing dependency_links to p3_pkg.egg-info/dependency_links.txt
+[4.304s] writing entry points to p3_pkg.egg-info/entry_points.txt
+[4.304s] writing requirements to p3_pkg.egg-info/requires.txt
+[4.304s] writing top-level names to p3_pkg.egg-info/top_level.txt
+[4.304s] writing manifest file 'p3_pkg.egg-info/SOURCES.txt'
+[4.321s] reading manifest file 'p3_pkg.egg-info/SOURCES.txt'
+[4.321s] writing manifest file 'p3_pkg.egg-info/SOURCES.txt'
+[4.321s] running build_ext
+[4.321s] Creating /workspace/ros2_ws/install/p3_pkg/lib/python3.10/site-packages/p3-pkg.egg-link (link to .)
+[4.322s] Installing aparcamiento script to /workspace/ros2_ws/install/p3_pkg/lib/p3_pkg
+[4.322s] Installing dibuja_mov script to /workspace/ros2_ws/install/p3_pkg/lib/p3_pkg
+[4.322s] Installing movimiento script to /workspace/ros2_ws/install/p3_pkg/lib/p3_pkg
+[4.322s] 
+[4.322s] Installed /workspace/ros2_ws/build/p3_pkg
+[4.322s] running symlink_data
+[4.322s] creating /workspace/ros2_ws/install/p3_pkg/share/ament_index
+[4.322s] creating /workspace/ros2_ws/install/p3_pkg/share/ament_index/resource_index
+[4.322s] creating /workspace/ros2_ws/install/p3_pkg/share/ament_index/resource_index/packages
+[4.322s] symbolically linking /workspace/ros2_ws/build/p3_pkg/resource/p3_pkg -> /workspace/ros2_ws/install/p3_pkg/share/ament_index/resource_index/packages
+[4.322s] symbolically linking /workspace/ros2_ws/build/p3_pkg/package.xml -> /workspace/ros2_ws/install/p3_pkg/share/p3_pkg
+[4.322s] creating /workspace/ros2_ws/install/p3_pkg/share/p3_pkg/launch
+[4.323s] symbolically linking /workspace/ros2_ws/build/p3_pkg/launch/parking_tb3.launch.py -> /workspace/ros2_ws/install/p3_pkg/share/p3_pkg/launch
+[4.323s] creating /workspace/ros2_ws/install/p3_pkg/share/p3_pkg/worlds
+[4.323s] symbolically linking /workspace/ros2_ws/build/p3_pkg/worlds/parking.world -> /workspace/ros2_ws/install/p3_pkg/share/p3_pkg/worlds
+[4.323s] creating /workspace/ros2_ws/install/p3_pkg/share/p3_pkg/models
+[4.323s] creating /workspace/ros2_ws/install/p3_pkg/share/p3_pkg/models/parking
+[4.323s] symbolically linking /workspace/ros2_ws/build/p3_pkg/models/parking/model.config -> /workspace/ros2_ws/install/p3_pkg/share/p3_pkg/models/parking
+[4.323s] symbolically linking /workspace/ros2_ws/build/p3_pkg/models/parking/model.sdf -> /workspace/ros2_ws/install/p3_pkg/share/p3_pkg/models/parking
+[4.390s] Invoked command in '/workspace/ros2_ws/build/p3_pkg' returned '0': PYTHONPATH=/workspace/ros2_ws/build/p3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/p3_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/p3_pkg/build --no-deps symlink_data

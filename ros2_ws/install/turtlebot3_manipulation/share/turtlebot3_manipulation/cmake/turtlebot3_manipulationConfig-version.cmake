@@ -1,0 +1,1 @@
+/workspace/ros2_ws/build/turtlebot3_manipulation/ament_cmake_core/turtlebot3_manipulationConfig-version.cmake

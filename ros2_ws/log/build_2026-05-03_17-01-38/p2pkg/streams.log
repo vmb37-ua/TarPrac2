@@ -1,0 +1,25 @@
+[3.796s] Invoking command in '/workspace/ros2_ws/build/p2pkg': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/turtlebot3:/workspace/ros2_ws/install/turtlebot3_simulations:/workspace/ros2_ws/install/turtlebot3_bringup:/workspace/ros2_ws/install/turtlebot3_node:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_fake_node:/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/ros2_ws/install/turtlebot3_manipulation_gazebo:/workspace/ros2_ws/install/turtlebot3_gazebo:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/install/interfaz_servicio_suma LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/ros2_ws/install/turtlebot3_msgs/lib:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/p2pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/p2pkg/build --no-deps symlink_data
+[4.795s] running develop
+[5.555s] running egg_info
+[5.555s] creating p2pkg.egg-info
+[5.555s] writing p2pkg.egg-info/PKG-INFO
+[5.556s] writing dependency_links to p2pkg.egg-info/dependency_links.txt
+[5.556s] writing entry points to p2pkg.egg-info/entry_points.txt
+[5.556s] writing requirements to p2pkg.egg-info/requires.txt
+[5.557s] writing top-level names to p2pkg.egg-info/top_level.txt
+[5.562s] writing manifest file 'p2pkg.egg-info/SOURCES.txt'
+[5.562s] reading manifest file 'p2pkg.egg-info/SOURCES.txt'
+[5.563s] writing manifest file 'p2pkg.egg-info/SOURCES.txt'
+[5.574s] running build_ext
+[5.574s] Creating /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg.egg-link (link to .)
+[5.575s] Installing nodopub script to /workspace/ros2_ws/install/p2pkg/lib/p2pkg
+[5.576s] Installing nodosub script to /workspace/ros2_ws/install/p2pkg/lib/p2pkg
+[5.576s] 
+[5.576s] Installed /workspace/ros2_ws/build/p2pkg
+[5.577s] running symlink_data
+[5.581s] creating /workspace/ros2_ws/install/p2pkg/share/ament_index
+[5.581s] creating /workspace/ros2_ws/install/p2pkg/share/ament_index/resource_index
+[5.581s] creating /workspace/ros2_ws/install/p2pkg/share/ament_index/resource_index/packages
+[5.581s] symbolically linking /workspace/ros2_ws/build/p2pkg/resource/p2pkg -> /workspace/ros2_ws/install/p2pkg/share/ament_index/resource_index/packages
+[5.582s] symbolically linking /workspace/ros2_ws/build/p2pkg/package.xml -> /workspace/ros2_ws/install/p2pkg/share/p2pkg
+[5.722s] Invoked command in '/workspace/ros2_ws/build/p2pkg' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/vicpaq:/workspace/ros2_ws/install/turtlebot3:/workspace/ros2_ws/install/turtlebot3_simulations:/workspace/ros2_ws/install/turtlebot3_bringup:/workspace/ros2_ws/install/turtlebot3_node:/workspace/ros2_ws/install/turtlebot3_navigation2:/workspace/ros2_ws/install/turtlebot3_fake_node:/workspace/ros2_ws/install/turtlebot3_msgs:/workspace/ros2_ws/install/turtlebot3_manipulation_gazebo:/workspace/ros2_ws/install/turtlebot3_gazebo:/workspace/ros2_ws/install/turtlebot3_description:/workspace/ros2_ws/install/turtlebot3_cartographer:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/install/interfaz_servicio_suma LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/ros2_ws/install/turtlebot3_msgs/lib:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/workspace/install/interfaz_servicio_suma/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/p2pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/p2pkg/build --no-deps symlink_data

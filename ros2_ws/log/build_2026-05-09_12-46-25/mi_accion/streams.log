@@ -1,0 +1,20 @@
+[5.763s] Invoking command in '/workspace/ros2_ws/build/mi_accion': PYTHONPATH=/workspace/ros2_ws/build/mi_accion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/mi_accion/build --no-deps symlink_data
+[6.399s] running develop
+[6.795s] running egg_info
+[6.797s] writing mi_accion.egg-info/PKG-INFO
+[6.797s] writing dependency_links to mi_accion.egg-info/dependency_links.txt
+[6.797s] writing entry points to mi_accion.egg-info/entry_points.txt
+[6.798s] writing requirements to mi_accion.egg-info/requires.txt
+[6.798s] writing top-level names to mi_accion.egg-info/top_level.txt
+[6.798s] reading manifest file 'mi_accion.egg-info/SOURCES.txt'
+[6.800s] writing manifest file 'mi_accion.egg-info/SOURCES.txt'
+[6.804s] running build_ext
+[6.806s] Creating /workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages/mi-accion.egg-link (link to .)
+[6.806s] Installing client script to /workspace/ros2_ws/install/mi_accion/lib/mi_accion
+[6.809s] Installing ej_client script to /workspace/ros2_ws/install/mi_accion/lib/mi_accion
+[6.809s] Installing ej_server script to /workspace/ros2_ws/install/mi_accion/lib/mi_accion
+[6.809s] Installing server script to /workspace/ros2_ws/install/mi_accion/lib/mi_accion
+[6.810s] 
+[6.810s] Installed /workspace/ros2_ws/build/mi_accion
+[6.810s] running symlink_data
+[7.920s] Invoked command in '/workspace/ros2_ws/build/mi_accion' returned '0': PYTHONPATH=/workspace/ros2_ws/build/mi_accion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/mi_accion/build --no-deps symlink_data

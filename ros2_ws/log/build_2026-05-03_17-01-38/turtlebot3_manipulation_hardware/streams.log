@@ -1,0 +1,81 @@
+[0.035s] Invoking command in '/workspace/ros2_ws/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/turtlebot3_manipulation_hardware
+[1.116s] -- The C compiler identification is GNU 11.4.0
+[1.116s] -- The CXX compiler identification is GNU 11.4.0
+[1.116s] -- Detecting C compiler ABI info
+[1.117s] -- Detecting C compiler ABI info - done
+[1.117s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.117s] -- Detecting C compile features
+[1.117s] -- Detecting C compile features - done
+[1.117s] -- Detecting CXX compiler ABI info
+[1.117s] -- Detecting CXX compiler ABI info - done
+[1.117s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.117s] -- Detecting CXX compile features
+[1.117s] -- Detecting CXX compile features - done
+[1.117s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.117s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.117s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.118s] -- Found dynamixel_sdk: 4.0.3 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[1.118s] -- Found hardware_interface: 2.53.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.122s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.133s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.153s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.640s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.648s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.703s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.778s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.783s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.809s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.814s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.827s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.843s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.866s] -- Looking for pthread.h
+[1.945s] -- Looking for pthread.h - found
+[1.945s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.025s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.026s] -- Found Threads: TRUE  
+[2.162s] -- Configuring done
+[2.175s] -- Generating done
+[2.179s] -- Build files have been written to: /workspace/ros2_ws/build/turtlebot3_manipulation_hardware
+[2.438s] Invoked command in '/workspace/ros2_ws/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/turtlebot3_manipulation_hardware
+[2.440s] Invoking command in '/workspace/ros2_ws/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/turtlebot3_manipulation_hardware -- -j12 -l12
+[2.508s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlebot3_manipulation_hardware.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[2.509s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_manipulation_hardware.dir/src/opencr.cpp.o[0m
+[2.509s] [ 75%] [32mBuilding CXX object CMakeFiles/turtlebot3_manipulation_hardware.dir/src/turtlebot3_manipulation_system.cpp.o[0m
+[11.982s] [100%] [32m[1mLinking CXX shared library libturtlebot3_manipulation_hardware.so[0m
+[12.504s] [100%] Built target turtlebot3_manipulation_hardware
+[13.074s] Invoked command in '/workspace/ros2_ws/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/turtlebot3_manipulation_hardware -- -j12 -l12
+[13.075s] Invoking command in '/workspace/ros2_ws/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/turtlebot3_manipulation_hardware
+[13.106s] -- Install configuration: ""
+[13.111s] -- Execute custom install script
+[13.111s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware//turtlebot3_manipulation_hardware.xml
+[13.157s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/dynamixel_sdk_wrapper.hpp
+[13.198s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/opencr.hpp
+[13.237s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/opencr_control_table.hpp
+[13.262s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/opencr_definitions.hpp
+[13.277s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/turtlebot3_manipulation_system.hpp
+[13.325s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/visibility_control.h
+[13.347s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/lib/libturtlebot3_manipulation_hardware.so
+[13.390s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/library_path.sh
+[13.424s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/library_path.dsv
+[13.463s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_hardware
+[13.500s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_hardware
+[13.515s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/ament_prefix_path.sh
+[13.537s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/ament_prefix_path.dsv
+[13.560s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/path.sh
+[13.591s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/path.dsv
+[13.625s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.bash
+[13.659s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.sh
+[13.677s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.zsh
+[13.705s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.dsv
+[13.743s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.dsv
+[13.767s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/packages/turtlebot3_manipulation_hardware
+[13.787s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/turtlebot3_manipulation_hardware
+[13.816s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.837s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[13.857s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.900s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/turtlebot3_manipulation_hardwareConfig.cmake
+[13.932s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/turtlebot3_manipulation_hardwareConfig-version.cmake
+[13.959s] -- Symlinking: /workspace/ros2_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.xml
+[13.992s] Invoked command in '/workspace/ros2_ws/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/turtlebot3_manipulation_hardware

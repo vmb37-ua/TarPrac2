@@ -1,0 +1,19 @@
+[3.935s] Invoking command in '/workspace/ros2_ws/build/voice_bot_pkg': PYTHONPATH=/workspace/ros2_ws/build/voice_bot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/voice_bot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/voice_bot_pkg/build --no-deps symlink_data
+[4.967s] running develop
+[5.557s] running egg_info
+[5.558s] writing voice_bot_pkg.egg-info/PKG-INFO
+[5.558s] writing dependency_links to voice_bot_pkg.egg-info/dependency_links.txt
+[5.559s] writing entry points to voice_bot_pkg.egg-info/entry_points.txt
+[5.559s] writing requirements to voice_bot_pkg.egg-info/requires.txt
+[5.560s] writing top-level names to voice_bot_pkg.egg-info/top_level.txt
+[5.560s] reading manifest file 'voice_bot_pkg.egg-info/SOURCES.txt'
+[5.564s] writing manifest file 'voice_bot_pkg.egg-info/SOURCES.txt'
+[5.570s] running build_ext
+[5.571s] Creating /workspace/ros2_ws/install/voice_bot_pkg/lib/python3.10/site-packages/voice-bot-pkg.egg-link (link to .)
+[5.576s] Installing executor script to /workspace/ros2_ws/install/voice_bot_pkg/lib/voice_bot_pkg
+[5.577s] Installing fake_mic script to /workspace/ros2_ws/install/voice_bot_pkg/lib/voice_bot_pkg
+[5.580s] Installing real_mic script to /workspace/ros2_ws/install/voice_bot_pkg/lib/voice_bot_pkg
+[5.583s] 
+[5.587s] Installed /workspace/ros2_ws/build/voice_bot_pkg
+[5.588s] running symlink_data
+[8.277s] Invoked command in '/workspace/ros2_ws/build/voice_bot_pkg' returned '0': PYTHONPATH=/workspace/ros2_ws/build/voice_bot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/voice_bot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/voice_bot_pkg/build --no-deps symlink_data

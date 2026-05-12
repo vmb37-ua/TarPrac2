@@ -1,0 +1,11 @@
+destinos:
+  BASE: [0.0, 0.0, 0.0]
+  COCINA: [2.5, -1.2, 1.57]
+
+acciones_rapidas:
+  # Formato: [Velocidad lineal (m/s), Velocidad angular (rad/s)]
+  AVANZAR: [0.15, 0.0]   # Va hacia adelante a 0.15 m/s
+  ATRAS: [-0.15, 0.0]    # Va hacia atrás
+  GIRAR: [0.0, 0.5]      # Gira sobre sí mismo hacia la izquierda
+  DERECHA: [0.0, -0.5]   # Gira sobre sí mismo hacia la derecha
+  PARAR: [0.0, 0.0]      # ¡Importante para que no se choque!

@@ -1,0 +1,21 @@
+[0.436s] Invoking command in '/workspace/ros2_ws/build/recolector_pkg': PYTHONPATH=/workspace/ros2_ws/build/recolector_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/recolector_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/recolector_pkg/build --no-deps symlink_data
+[0.609s] running develop
+[0.703s] running egg_info
+[0.703s] writing recolector_pkg.egg-info/PKG-INFO
+[0.704s] writing dependency_links to recolector_pkg.egg-info/dependency_links.txt
+[0.704s] writing entry points to recolector_pkg.egg-info/entry_points.txt
+[0.704s] writing requirements to recolector_pkg.egg-info/requires.txt
+[0.704s] writing top-level names to recolector_pkg.egg-info/top_level.txt
+[0.705s] reading manifest file 'recolector_pkg.egg-info/SOURCES.txt'
+[0.705s] writing manifest file 'recolector_pkg.egg-info/SOURCES.txt'
+[0.706s] running build_ext
+[0.707s] Creating /workspace/ros2_ws/install/recolector_pkg/lib/python3.10/site-packages/recolector-pkg.egg-link (link to .)
+[0.707s] Installing recolector script to /workspace/ros2_ws/install/recolector_pkg/lib/recolector_pkg
+[0.707s] 
+[0.708s] Installed /workspace/ros2_ws/build/recolector_pkg
+[0.708s] running symlink_data
+[0.708s] creating /workspace/ros2_ws/install/recolector_pkg/share/recolector_pkg/launch
+[0.708s] symbolically linking /workspace/ros2_ws/build/recolector_pkg/launch/recolector.launch.py -> /workspace/ros2_ws/install/recolector_pkg/share/recolector_pkg/launch
+[0.708s] creating /workspace/ros2_ws/install/recolector_pkg/share/recolector_pkg/worlds
+[0.708s] symbolically linking /workspace/ros2_ws/build/recolector_pkg/worlds/huerto.world -> /workspace/ros2_ws/install/recolector_pkg/share/recolector_pkg/worlds
+[0.725s] Invoked command in '/workspace/ros2_ws/build/recolector_pkg' returned '0': PYTHONPATH=/workspace/ros2_ws/build/recolector_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/recolector_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/recolector_pkg/build --no-deps symlink_data

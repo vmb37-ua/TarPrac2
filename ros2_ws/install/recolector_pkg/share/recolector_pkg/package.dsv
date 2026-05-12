@@ -1,0 +1,9 @@
+source;share/recolector_pkg/hook/pythonpath.ps1
+source;share/recolector_pkg/hook/pythonpath.dsv
+source;share/recolector_pkg/hook/pythonpath.sh
+source;share/recolector_pkg/hook/ament_prefix_path.ps1
+source;share/recolector_pkg/hook/ament_prefix_path.dsv
+source;share/recolector_pkg/hook/ament_prefix_path.sh
+source;../../build/recolector_pkg/share/recolector_pkg/hook/pythonpath_develop.ps1
+source;../../build/recolector_pkg/share/recolector_pkg/hook/pythonpath_develop.dsv
+source;../../build/recolector_pkg/share/recolector_pkg/hook/pythonpath_develop.sh

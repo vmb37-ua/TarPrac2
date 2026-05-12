@@ -1,0 +1,16 @@
+[1.969s] Invoking command in '/workspace/ros2_ws/build/paquete1': PYTHONPATH=/workspace/ros2_ws/build/paquete1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/paquete1/build --no-deps symlink_data
+[2.401s] running develop
+[2.593s] running egg_info
+[2.593s] writing paquete1.egg-info/PKG-INFO
+[2.593s] writing dependency_links to paquete1.egg-info/dependency_links.txt
+[2.593s] writing entry points to paquete1.egg-info/entry_points.txt
+[2.594s] writing requirements to paquete1.egg-info/requires.txt
+[2.594s] writing top-level names to paquete1.egg-info/top_level.txt
+[2.595s] reading manifest file 'paquete1.egg-info/SOURCES.txt'
+[2.596s] writing manifest file 'paquete1.egg-info/SOURCES.txt'
+[2.598s] running build_ext
+[2.598s] Creating /workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages/paquete1.egg-link (link to .)
+[2.599s] 
+[2.599s] Installed /workspace/ros2_ws/build/paquete1
+[2.599s] running symlink_data
+[3.057s] Invoked command in '/workspace/ros2_ws/build/paquete1' returned '0': PYTHONPATH=/workspace/ros2_ws/build/paquete1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/paquete1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/paquete1/build --no-deps symlink_data

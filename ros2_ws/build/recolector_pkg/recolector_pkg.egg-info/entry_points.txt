@@ -1,0 +1,3 @@
+[console_scripts]
+recolector = recolector_pkg.nodo_recolector:main
+

@@ -1,0 +1,5 @@
+[console_scripts]
+executor = voice_bot_pkg.robot_executor_node:main
+fake_mic = voice_bot_pkg.voice_listener_node:main
+real_mic = voice_bot_pkg.real_mic_node:main
+

@@ -1,0 +1,133 @@
+[0.248s] Invoking command in '/workspace/ros2_ws/build/interfaz_servicio_suma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/recolector_pkg:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/interfaz_servicio_suma -- -j12 -l12
+[0.462s] [  3%] Built target interfaz_servicio_suma__cpp
+[0.641s] [  3%] Built target ament_cmake_python_symlink_interfaz_servicio_suma
+[0.643s] [35m[1mConsolidate compiler generated dependencies of target interfaz_servicio_suma__rosidl_typesupport_introspection_cpp[0m
+[0.667s] [ 12%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_cpp
+[1.479s] running egg_info
+[1.480s] writing interfaz_servicio_suma.egg-info/PKG-INFO
+[1.481s] writing dependency_links to interfaz_servicio_suma.egg-info/dependency_links.txt
+[1.481s] writing top-level names to interfaz_servicio_suma.egg-info/top_level.txt
+[1.490s] reading manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'
+[1.494s] writing manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'
+[1.571s] [ 12%] Built target ament_cmake_python_build_interfaz_servicio_suma_egg
+[1.600s] [35m[1mConsolidate compiler generated dependencies of target interfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp[0m
+[1.650s] [ 22%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp
+[1.676s] [35m[1mConsolidate compiler generated dependencies of target interfaz_servicio_suma__rosidl_typesupport_cpp[0m
+[1.707s] [ 32%] Built target interfaz_servicio_suma__rosidl_typesupport_cpp
+[1.741s] [35m[1mConsolidate compiler generated dependencies of target interfaz_servicio_suma__rosidl_generator_c[0m
+[1.777s] [ 41%] Built target interfaz_servicio_suma__rosidl_generator_c
+[1.815s] [35m[1mConsolidate compiler generated dependencies of target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c[0m
+[1.844s] [ 51%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c
+[1.870s] [35m[1mConsolidate compiler generated dependencies of target interfaz_servicio_suma__rosidl_typesupport_c[0m
+[1.895s] [ 61%] Built target interfaz_servicio_suma__rosidl_typesupport_c
+[1.926s] [35m[1mConsolidate compiler generated dependencies of target interfaz_servicio_suma__rosidl_typesupport_introspection_c[0m
+[1.958s] [ 70%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_c
+[2.008s] [ 70%] Built target interfaz_servicio_suma
+[2.084s] [ 74%] Built target interfaz_servicio_suma__py
+[2.125s] [35m[1mConsolidate compiler generated dependencies of target interfaz_servicio_suma__rosidl_generator_py[0m
+[2.163s] [ 80%] Built target interfaz_servicio_suma__rosidl_generator_py
+[2.200s] [35m[1mConsolidate compiler generated dependencies of target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.242s] [ 87%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c__pyext
+[2.263s] [35m[1mConsolidate compiler generated dependencies of target interfaz_servicio_suma__rosidl_typesupport_c__pyext[0m
+[2.327s] [ 93%] Built target interfaz_servicio_suma__rosidl_typesupport_c__pyext
+[2.339s] [35m[1mConsolidate compiler generated dependencies of target interfaz_servicio_suma__rosidl_typesupport_introspection_c__pyext[0m
+[2.377s] [100%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_c__pyext
+[5.537s] Invoked command in '/workspace/ros2_ws/build/interfaz_servicio_suma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/recolector_pkg:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/interfaz_servicio_suma -- -j12 -l12
+[5.546s] Invoking command in '/workspace/ros2_ws/build/interfaz_servicio_suma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/recolector_pkg:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/interfaz_servicio_suma
+[5.583s] -- Install configuration: ""
+[5.586s] -- Execute custom install script
+[5.586s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/ament_index/resource_index/rosidl_interfaces/interfaz_servicio_suma
+[5.587s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_generator_c__visibility_control.h
+[5.587s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/add_two_ints.h
+[5.589s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__functions.h
+[5.591s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__struct.h
+[5.592s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.h
+[5.595s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/library_path.sh
+[5.598s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/library_path.dsv
+[5.599s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.599s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[5.600s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.601s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/add_two_ints.hpp
+[5.601s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__builder.hpp
+[5.601s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__struct.hpp
+[5.602s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__traits.hpp
+[5.602s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.hpp
+[5.602s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.602s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[5.602s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.603s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[5.604s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[5.604s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/pythonpath.sh
+[5.605s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/pythonpath.dsv
+[5.605s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info/PKG-INFO
+[5.605s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.605s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.605s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info/top_level.txt
+[5.606s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/__init__.py
+[5.606s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_c.c
+[5.606s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.606s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_introspection_c.c
+[5.606s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.606s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.607s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.607s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/libinterfaz_servicio_suma__rosidl_generator_py.so
+[5.607s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv/__init__.py
+[5.607s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv/_add_two_ints.py
+[5.607s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv/_add_two_ints_s.c
+[5.608s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.608s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.609s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.609s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/srv/AddTwoInts.idl
+[5.609s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/srv/AddTwoInts.srv
+[5.609s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/srv/AddTwoInts_Request.msg
+[5.609s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/srv/AddTwoInts_Response.msg
+[5.623s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/ament_index/resource_index/package_run_dependencies/interfaz_servicio_suma
+[5.623s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/ament_index/resource_index/parent_prefix_path/interfaz_servicio_suma
+[5.624s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/ament_prefix_path.sh
+[5.624s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/ament_prefix_path.dsv
+[5.624s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/path.sh
+[5.624s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/path.dsv
+[5.624s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/local_setup.bash
+[5.633s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/local_setup.sh
+[5.634s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/local_setup.zsh
+[5.634s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/local_setup.dsv
+[5.635s] -- Symlinking: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.dsv
+[5.649s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/ament_index/resource_index/packages/interfaz_servicio_suma
+[5.649s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/rosidl_cmake-extras.cmake
+[5.650s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.650s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.650s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/ament_cmake_export_libraries-extras.cmake
+[5.650s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/ament_cmake_export_targets-extras.cmake
+[5.650s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.650s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.650s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_sumaConfig.cmake
+[5.651s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_sumaConfig-version.cmake
+[5.651s] -- Up-to-date symlink: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.xml
+[5.651s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_generator_c.so
+[5.651s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_c.so
+[5.651s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp.so
+[5.652s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_introspection_c.so
+[5.652s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_c.so
+[5.652s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_introspection_cpp.so
+[5.653s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_cpp.so
+[5.798s] Listing '/workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma'...
+[5.798s] Listing '/workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv'...
+[5.819s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_generator_py.so
+[5.820s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_cExport.cmake
+[5.821s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_cExport-noconfig.cmake
+[5.822s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_typesupport_fastrtps_cExport.cmake
+[5.822s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.823s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_cppExport.cmake
+[5.823s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.824s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.824s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_introspection_cExport.cmake
+[5.824s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.825s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_cExport.cmake
+[5.825s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_cExport-noconfig.cmake
+[5.826s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_introspection_cppExport.cmake
+[5.826s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.827s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_cppExport.cmake
+[5.827s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_cppExport-noconfig.cmake
+[5.827s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_pyExport.cmake
+[5.828s] -- Up-to-date: /workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_pyExport-noconfig.cmake
+[6.767s] Invoked command in '/workspace/ros2_ws/build/interfaz_servicio_suma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/voice_bot_pkg:/workspace/ros2_ws/install/turtlebot3_teleop:/workspace/ros2_ws/install/turtlebot3_example:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/recolector_pkg:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/paquete1:/workspace/ros2_ws/install/p3_pkg:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/maze_pkg:/workspace/ros2_ws/install/battery_act:/workspace/ros2_ws/src/voice_bot_pkg/install/voice_bot_pkg:/workspace/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/interfaz_servicio_suma

@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing battery_act.egg-info/PKG-INFO
+writing dependency_links to battery_act.egg-info/dependency_links.txt
+writing entry points to battery_act.egg-info/entry_points.txt
+writing requirements to battery_act.egg-info/requires.txt
+writing top-level names to battery_act.egg-info/top_level.txt
+reading manifest file 'battery_act.egg-info/SOURCES.txt'
+writing manifest file 'battery_act.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspace/ros2_ws/install/battery_act/lib/python3.10/site-packages/battery-act.egg-link (link to .)
+Installing client script to /workspace/ros2_ws/install/battery_act/lib/battery_act
+Installing server script to /workspace/ros2_ws/install/battery_act/lib/battery_act
+
+Installed /workspace/ros2_ws/build/battery_act
+running symlink_data
